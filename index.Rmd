@@ -21,6 +21,6 @@ thumbnail <- function(title, img, href, caption = TRUE) {
 
 ```{r}
 thumbnail("Rookie Researcher", "images/dg_flavicon-dom-logo-550x550-NoBackground.png",
-          "https://github.com/dgrisafe/rookie-researcher#rookie-researcher")
+          "rookie_researcher.html")
 ```
 
