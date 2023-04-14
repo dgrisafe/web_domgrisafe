@@ -2,3 +2,25 @@
 title: "Blog"
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(htmltools)
+```
+
+```{r}
+thumbnail <- function(title, img, href, caption = TRUE) {
+  div(class = "col-sm-4",
+      a(class = "thumbnail", title = title, href = href,
+        img(src = img),
+        div(class = if (caption) "caption",
+            if (caption) title)
+      )
+  )
+}
+```
+
+```{r}
+thumbnail("Rookie Researcher", "images/dg_flavicon-dom-logo-550x550-NoBackground.png",
+          "https://github.com/dgrisafe/rookie-researcher#rookie-researcher")
+```
+

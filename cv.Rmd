@@ -2,28 +2,28 @@
 title: "Curriculum Vitae"
 ---
 
-<img src="grisafe_headshot.jpg" width="300"/>
+<img src="images/grisafe_headshot.jpg" width="300"/>
 
 ## Clinical Training
 
-```{r include=FALSE, child="_cv_clinical_training.md"}
+```{r include=FALSE, child="cv_child/_clinical_training.md"}
 ```
 
 ## Education
 
-```{r include=FALSE, child="_cv_education.md"}
+```{r include=FALSE, child="cv_child/_education.md"}
 ```
 
-## Research
+## Research 
   
-```{r include=FALSE, child="_cv_grants.md"}
+```{r include=FALSE, child="cv_child/_grants.md"}
 ```
 
-```{r include=FALSE, child="_cv_publications.md"}
+```{r include=FALSE, child="cv_child/_publications.md"}
 ```
 
-```{r include=FALSE, child="_cv_talks.md"}
+```{r include=FALSE, child="cv_child/_talks.md"}
 ```
 
-```{r include=FALSE, child="_cv_posters.md"}
+```{r include=FALSE, child="cv_child/_posters.md"}
 ```
