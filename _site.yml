@@ -10,6 +10,9 @@ navbar:
       icon: fa-file
   right:
     - text: ""
+      href: https://orcid.org/0000-0003-1212-9816
+      icon: fa-orcid
+    - text: ""
       href: https://github.com/dgrisafe
       icon: fa-github
 output:
