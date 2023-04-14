@@ -1,8 +1,8 @@
-name: "my-website"
+name: "dominicgrisafe.com"
 navbar:
-  title: "My Website"
+  title: "Dominic Grisafe"
   left:
-    - text: "Home"
+    - text: "Blog"
       href: index.html
     - text: "About"
       href: about.html
