@@ -9,13 +9,13 @@ navbar:
       href: cv.html
       icon: fa-file
   right:
-    - text: ""
+    - text: "ORCID"
       href: https://orcid.org/0000-0003-1212-9816
-      icon: orcid
-    - text: ""
+      icon: fa-orcid
+    - text: "PubMed"
       href: https://pubmed.ncbi.nlm.nih.gov/?term=%28Dominic+J+Grisafe+Ii%5BAuthor%5D%29+OR+%28Dominic+Grisafe%5BAuthor%5D%29&sort=date
-      icon: pubmed
-    - text: ""
+      icon: fa-pubmed
+    - text: "GitHub"
       href: https://github.com/dgrisafe
       icon: fa-github
 output:
