@@ -4,15 +4,13 @@ title: "Curriculum Vitae"
 
 <img src="grisafe_headshot.jpg" width="300"/>
 
-## Dominic Grisafe
+# Dominic Grisafe
 
-* [ORCID](https://orcid.org/0000-0003-1212-9816)
-* [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%28Dominic+J+Grisafe+Ii%5BAuthor%5D%29+OR+%28Dominic+Grisafe%5BAuthor%5D%29&sort=date)
-* [GitHub](https://github.com/dgrisafe)
+[dominicgrisafe.com](https://dominicgrisafe.com/) | [ORCID](https://orcid.org/0000-0003-1212-9816) | [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%28Dominic+J+Grisafe+Ii%5BAuthor%5D%29+OR+%28Dominic+Grisafe%5BAuthor%5D%29&sort=date) | [GitHub](https://github.com/dgrisafe)
 
 ## Clinical Training
 
-* 2027 Psychiatry Residency Training
+* 2027 Psychiatry Residency
   * University of Illinois
   * Chicago, Illinois
 
@@ -70,24 +68,6 @@ title: "Curriculum Vitae"
 3. Lee C, Tao F, **Grisafe DJ**, Castelan E, Lane D, Cheney A. Veterans First, Deported Second. Poster presented at: American Public Health Association 2019 Annual Meeting and Expo; November 5, 2019; Philadelphia, Pennsylvania. https://apha.confex.com/apha/2019/meetingapp.cgi/Paper/429829
 4. **Grisafe DJ**, McKean-Cowdin R, Burkemper B, et al. Vision-Specific Quality of Life and Visual Field Loss in the African American Eye Disease Study. Poster presented at: 2019 Association for Research in Vision and Ophthalmology Annual Meeting; May 1, 2019; Vancouver, Canada. https://iovs.arvojournals.org/article.aspx?articleid=2744029
 
-### Awards
-
-#### University of Southern California, Los Angeles
-
-* 2022 Travel Grant Society for Academic Emergency Medicine APSA, American Physician Scientists Association 
-* 2021 Travel Grant Retina Research Foundation / Joseph M. and Eula C. Lawrence, Association for Research in Vision and Ophthalmology Annual Meeting 
-* 2020 Travel Grant Knights Templar Eye Foundation, Association for Research in Vision and Ophthalmology Annual Meeting
-* 2020 Mackenzie Foundation Scholarship 
-* 2019 Outstanding Poster Presentation for Annual Pre-Association for Research in Vision and Ophthalmology Event
-
-#### California Polytechnic State University, San Luis Obispo
-
-* 2014 President’s Honors List for Exceptional Academic Achievement
-* 2014 Outstanding Graduating Senior in Physical Chemistry
-* 2014 Outstanding Graduating Senior in Biochemistry
-* 2014 Outstanding Biochemistry Major, Senior Recognition Award for Exceptional Achievement
-* 2014 ACS Outstanding Senior in Organic Chemistry 
-
 ### Laboratory Affiliations
 
 #### University of Southern California, Los Angeles
@@ -123,3 +103,21 @@ title: "Curriculum Vitae"
   * Sah MD ScD
   * Klisch PhD
   * Department of Bioengineering
+
+### Awards
+
+#### University of Southern California, Los Angeles
+
+* 2022 Travel Grant Society for Academic Emergency Medicine APSA, American Physician Scientists Association 
+* 2021 Travel Grant Retina Research Foundation / Joseph M. and Eula C. Lawrence, Association for Research in Vision and Ophthalmology Annual Meeting 
+* 2020 Travel Grant Knights Templar Eye Foundation, Association for Research in Vision and Ophthalmology Annual Meeting
+* 2020 Mackenzie Foundation Scholarship 
+* 2019 Outstanding Poster Presentation for Annual Pre-Association for Research in Vision and Ophthalmology Event
+
+#### California Polytechnic State University, San Luis Obispo
+
+* 2014 President’s Honors List for Exceptional Academic Achievement
+* 2014 Outstanding Graduating Senior in Physical Chemistry
+* 2014 Outstanding Graduating Senior in Biochemistry
+* 2014 Outstanding Biochemistry Major, Senior Recognition Award for Exceptional Achievement
+* 2014 ACS Outstanding Senior in Organic Chemistry 
