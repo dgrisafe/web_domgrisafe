@@ -4,5 +4,5 @@ navbar:
   left:
     - text: "Blog"
       href: index.html
-    - text: "About"
-      href: about.html
+    - text: "CV"
+      href: cv.html

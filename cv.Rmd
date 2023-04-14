@@ -2,7 +2,7 @@
 title: "Curriculum Vitae"
 ---
 
-<img src="grisafe_headshot.jpg" width="220"/>
+<img src="grisafe_headshot.jpg" width="300"/>
 
 ## Dominic Grisafe
 
