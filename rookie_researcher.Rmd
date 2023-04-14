@@ -28,3 +28,7 @@ Introductory skills for clinical research
 * [Rmd Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
 * [Outbreak Wrangling](https://github.com/dgrisafe/outbreak_wrangling)
 * [Debugging in R](https://adv-r.hadley.nz/debugging.html)
+
+### Regular Expressions
+
+* [regex101](https://regex101.com/)
