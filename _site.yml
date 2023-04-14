@@ -8,6 +8,10 @@ navbar:
     - text: "CV"
       href: cv.html
       icon: fa-file
+  right:
+    - text: ""
+      href: https://github.com/dgrisafe
+      icon: fa-github
 output:
   html_document:
     theme: yeti
