@@ -11,6 +11,8 @@ library(htmltools)
 
 Psychiatry | Medicine | Epidemiology | Data Science
 
+<link rel="icon" type="image/png" href="dg_flavicon-dom-logo-550x550-NoBackground.png"/>
+
 <br>
 ```{r}
 thumbnail <- function(title, img, href, caption = TRUE) {
