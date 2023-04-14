@@ -1,15 +1,15 @@
 ---
-title: "Blog"
+title: "Psychiatry | Informatics"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 library(htmltools)
 ```
-
+<br>
 ```{r}
 thumbnail <- function(title, img, href, caption = TRUE) {
-  div(class = "col-sm-4",
+  div(class = "col-sm-6",
       a(class = "thumbnail", title = title, href = href,
         img(src = img),
         div(class = if (caption) "caption",
@@ -20,7 +20,10 @@ thumbnail <- function(title, img, href, caption = TRUE) {
 ```
 
 ```{r}
+thumbnail("Psychopharmacology", "images/hal-gatewood-neuron.jpeg",
+          "")
+thumbnail("Pharmpharmacology Anki", "images/danilo-alvesd-pill.jpg",
+          "")
 thumbnail("Rookie Researcher", "images/dg_flavicon-dom-logo-550x550-NoBackground.png",
           "rookie_researcher.html")
 ```
-
