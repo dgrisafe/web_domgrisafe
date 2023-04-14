@@ -1,0 +1,4 @@
+### Talks
+
+1. **Grisafe DJ**, McKean-Cowdin R, Burkemper B, Xu B, Torres M, Varma R. [Variability of Visual Field Loss on Vision-Specific Quality of Life in the Multiethnic Ophthalmology Cohorts of California Study](https://youtu.be/4CV3XbQ4uRo). Talk presented at: 2020 Association for Research in Vision and Ophthalmology Annual Meeting; June 10, 2020; Baltimore, Maryland (Virtual). 
+2. Behizad K, **Grisafe DJ**, Lay S, Ramirez T, Anvar A, Baezconde-Garbanati L. [Empowering Minority Youth as Trainers of Peer Health Educators for the Prevention of Childhood Obesity: A Community-Based Intervention in South Los Angeles](https://www.youtube.com/watch?v=1n0RUykv3QY). Talk presented at: American Public Health Association 2019 Annual Meeting and Expo; November 6, 2019; Philadelphia, Pennsylvania.

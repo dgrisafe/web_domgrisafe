@@ -1,0 +1,5 @@
+### Posters
+
+1. **Grisafe DJ**, Franklin M, Nousome D, et al. [The Association of Traffic-Related Air Pollution and Perfusion of the Peripapillary Retina in African Americans](https://iovs.arvojournals.org/article.aspx?articleid=2773112). Poster presented at: 2021 Association for Research in Vision and Ophthalmology Annual Meeting; June 21, 2021; Virtual.
+2. Lee C, Tao F, **Grisafe DJ**, Castelan E, Lane D, Cheney A. [Veterans First, Deported Second](https://apha.confex.com/apha/2019/meetingapp.cgi/Paper/429829). Poster presented at: American Public Health Association 2019 Annual Meeting and Expo; November 5, 2019; Philadelphia, Pennsylvania. 
+3. **Grisafe DJ**, McKean-Cowdin R, Burkemper B, et al. [Vision-Specific Quality of Life and Visual Field Loss in the African American Eye Disease Study](https://iovs.arvojournals.org/article.aspx?articleid=2744029). Poster presented at: 2019 Association for Research in Vision and Ophthalmology Annual Meeting; May 1, 2019; Vancouver, Canada. 
