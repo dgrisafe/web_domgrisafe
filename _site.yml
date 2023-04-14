@@ -1,23 +1,16 @@
 name: "dominicgrisafe.com"
 navbar:
   title: "Dominic Grisafe"
-  left:
+  right:
     - text: "Blog"
       href: index.html
       icon: fa-pen
-    - text: "CV"
-      href: cv.html
-      icon: fa-file
-  right:
-    - text: "ORCID"
-      href: https://orcid.org/0000-0003-1212-9816
-      icon: fa-orcid
-    - text: "PubMed"
-      href: https://pubmed.ncbi.nlm.nih.gov/?term=%28Dominic+J+Grisafe+Ii%5BAuthor%5D%29+OR+%28Dominic+Grisafe%5BAuthor%5D%29&sort=date
-      icon: fa-pubmed
     - text: "GitHub"
       href: https://github.com/dgrisafe
       icon: fa-github
+    - text: "CV"
+      href: cv.html
+      icon: fa-file
 output:
   html_document:
     theme: yeti
