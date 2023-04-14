@@ -6,104 +6,24 @@ title: "Curriculum Vitae"
 
 ## Clinical Training
 
-* 2027 Psychiatry Residency
-  * University of Illinois
-  * Chicago, Illinois
+```{r include=FALSE, child="_cv_clinical_training.md"}
+```
 
 ## Education
 
-* 2023 Medical Degree
-  * University of Southern California
-  * Los Angeles, California
-* 2021 Postdoctoral Fellowship in Environmental Omics
-  * University of Southern California
-  * Los Angeles, California
-* 2020 [Doctor of Philosophy in Epidemiology](https://doi.org/10.25549/usctheses-c89-318788)
-  * University of Southern California
-  * Los Angeles, California
-* 2014 Bachelors of Science in Biochemistry
-  * California Polytechnic State University
-  * San Luis Obispo, California
+```{r include=FALSE, child="_cv_education.md"}
+```
 
-  
 ## Research
-
-### Grants
-
-* [Postdoctoral Fellowship in Environmental Omics](https://drive.google.com/file/d/10VWMRnFBfFJxueXct3npUaVkrcL0fiWs/view?usp=sharing)
-  * Jun 2020 – May 2021
-  * National Institute of Environmental Health Sciences
-  * NIEHS T32 ES013678
-    * Gauderman, WJ
-    * McConnell, RS
-* [Predoctoral Multidisciplinary Research Training in Gerontology](https://gero.usc.edu/mrtraining-in-gero/)
-  * Aug 2018 – May 2020
-  * National Institute on Aging 
-  * NIA T32 AG000037
-    * Crimmins, EM
   
-### Publications
+```{r include=FALSE, child="_cv_grants.md"}
+```
 
-1. **Grisafe DJ**, McKean-Cowdin R, Burkemper BS, et al. Visual Field Loss Impacts Vision-Specific Quality of Life by Race and Ethnicity: The Multiethnic Ophthalmology Cohorts of California Study. Ophthalmology. 2022;129(6):668-678. doi:10.1016/j.ophtha.2022.01.001
-2. **Grisafe DJ**, Varma R, Burkemper BS, et al. Impact of Visual Field Loss on Vision-Specific Quality of Life in African Americans: The African American Eye Disease Study. American Journal of Ophthalmology. 2021;229:52-62. doi:10.1016/j.ajo.2021.02.008
-3. Lee JC, **Grisafe DJ**, Burkemper B, et al. Intrasession repeatability and intersession reproducibility of peripapillary OCTA vessel parameters in non-glaucomatous and glaucomatous eyes. British Journal of Ophthalmology. 2021;105(11):1534-1541. doi:10.1136/bjophthalmol-2020-317181
-4. Vorperian A, Khan N, Lee J, Burkemper B, Zhou X, **Grisafe DJ**, et al. Intrasession Repeatability and Intersession Reproducibility of Macular Vessel Parameters on Optical Coherence Tomography Angiography in Glaucomatous and Non-Glaucomatous Eyes. Curr Eye Res. 2022;47(7):1068-1076. doi:10.1080/02713683.2022.2061004
-5. Shen AJ, Urrea AL, Lee JC, Burkemper B, LeTran VH, Zhou X, Chu Z, **Grisafe, DJ**, et al. Repeatability and Reproducibility of 4.5 by 4.5 mm Peripapillary Optical Coherence Tomography Angiography Scans in Glaucoma and Nonglaucoma Eyes. J Glaucoma. Published online June 16, 2022. doi:10.1097/IJG.0000000000002054
-6. Phillips MJ, Dinh-Dang D, Bolo K, Burkemper B, Lee JC, LeTran VH, Chang BR, **Grisafe, D. J.**, et al. Steps to Measurement Floor of an Optical Microangiography Device in Glaucoma. American Journal of Ophthalmology. 2021;231:58-69. doi:10.1016/j.ajo.2021.05.012
+```{r include=FALSE, child="_cv_publications.md"}
+```
 
+```{r include=FALSE, child="_cv_talks.md"}
+```
 
-### Talks
-
-1. **Grisafe DJ**, McKean-Cowdin R, Burkemper B, Xu B, Torres M, Varma R. [Variability of Visual Field Loss on Vision-Specific Quality of Life in the Multiethnic Ophthalmology Cohorts of California Study](https://youtu.be/4CV3XbQ4uRo). Talk presented at: 2020 Association for Research in Vision and Ophthalmology Annual Meeting; June 10, 2020; Baltimore, Maryland (Virtual). 
-2. Behizad K, **Grisafe DJ**, Lay S, Ramirez T, Anvar A, Baezconde-Garbanati L. [Empowering Minority Youth as Trainers of Peer Health Educators for the Prevention of Childhood Obesity: A Community-Based Intervention in South Los Angeles](https://www.youtube.com/watch?v=1n0RUykv3QY). Talk presented at: American Public Health Association 2019 Annual Meeting and Expo; November 6, 2019; Philadelphia, Pennsylvania. 
-
-### Posters
-
-1. **Grisafe DJ**, Franklin M, Nousome D, et al. Traffic-related air pollution was associated with reduced perfusion through peripapillary capillaries of the retina in African Americans. Poster presented at: 2022 Association of American Physicians/The American Society for Clinical Investigation/American Physician Scientists Association Joint Meeting Poster Session; April 9, 2022; Swissotel Chicago, Il.
-2. **Grisafe DJ**, Franklin M, Nousome D, et al. [The Association of Traffic-Related Air Pollution and Perfusion of the Peripapillary Retina in African Americans](https://iovs.arvojournals.org/article.aspx?articleid=2773112). Poster presented at: 2021 Association for Research in Vision and Ophthalmology Annual Meeting; June 21, 2021; Virtual.
-3. Lee C, Tao F, **Grisafe DJ**, Castelan E, Lane D, Cheney A. [Veterans First, Deported Second](https://apha.confex.com/apha/2019/meetingapp.cgi/Paper/429829). Poster presented at: American Public Health Association 2019 Annual Meeting and Expo; November 5, 2019; Philadelphia, Pennsylvania. 
-4. **Grisafe DJ**, McKean-Cowdin R, Burkemper B, et al. [Vision-Specific Quality of Life and Visual Field Loss in the African American Eye Disease Study](https://iovs.arvojournals.org/article.aspx?articleid=2744029). Poster presented at: 2019 Association for Research in Vision and Ophthalmology Annual Meeting; May 1, 2019; Vancouver, Canada. 
-
-### Awards
-
-* 2022 Travel Grant Society for Academic Emergency Medicine APSA, American Physician Scientists Association 
-* 2021 Travel Grant Retina Research Foundation / Joseph M. and Eula C. Lawrence, Association for Research in Vision and Ophthalmology Annual Meeting 
-* 2020 Travel Grant Knights Templar Eye Foundation, Association for Research in Vision and Ophthalmology Annual Meeting
-* 2020 Mackenzie Foundation Scholarship 
-* 2019 Outstanding Poster Presentation for Annual Pre-Association for Research in Vision and Ophthalmology Event
-
-### Laboratory Affiliations
-
-#### University of Southern California, Los Angeles
-
-* Human Early Life Exposome and Child Liver Injury
-  * Jun 2020 – May 2021
-  * Chatzi MD PhD
-  * Department of Population and Public Health Sciences
-* Population-Based Cohort Studies of Eye Disease
-  * Aug 2017 – May 2021
-  * McKean-Cowdin PhD
-  * Department of Preventive Medicine, Roski Eye Institute
-
-#### California Polytechnic State University, San Luis Obispo
-
-* Microfluidic Paper-Based Devices
-  * Sep 2013 – Jun 2014
-  * Martinez PhD
-  * Department of Chemistry and Biochemistry
-* Marine Environmental Physiology
-  * Sep 2013 – Jun 2014
-  * Hardy PhD
-  * Department of Biological Sciences
-* Organic Chemistry Synthesis
-  * Sep 2013 – Dec 2013
-  * Meisenheimer PhD
-  * Department of Chemistry and Biochemistry
-
-#### University of California, San Diego
-
-* Cartilage Tissue Engineering, Human Motion Biomechanics
-  * Jun 2012 – Aug 2012
-  * Sah MD ScD
-  * Klisch PhD
-  * Department of Bioengineering
+```{r include=FALSE, child="_cv_posters.md"}
+```
