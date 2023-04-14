@@ -8,3 +8,9 @@ navbar:
     - text: "CV"
       href: cv.html
       icon: fa-file
+output:
+  html_document:
+    theme: yeti
+    highlight: textmate
+    css: styles.css
+    
