@@ -1,11 +1,16 @@
 ---
-title: "Psychiatry | Informatics"
+title: "Blog"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 library(htmltools)
 ```
+
+<br>
+
+Psychiatry | Medicine | Epidemiology | Data Science
+
 <br>
 ```{r}
 thumbnail <- function(title, img, href, caption = TRUE) {
@@ -27,5 +32,5 @@ thumbnail("Pharmpharmacology Anki Format", "images/danilo-alvesd-pill.png",
 thumbnail("Rookie Researcher", "images/dg_flavicon-dom-logo-550x550-NoBackground.png",
           "rookie_researcher.html")
 thumbnail("Medical Spanish Flashcards", "images/paises_espanol.png",
-          "rookie_researcher.html")
+          "")
 ```
