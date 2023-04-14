@@ -20,10 +20,12 @@ thumbnail <- function(title, img, href, caption = TRUE) {
 ```
 
 ```{r}
-thumbnail("Psychopharmacology", "images/hal-gatewood-neuron.png",
+thumbnail("Psychopharmacology Flashcards", "images/hal-gatewood-neuron.png",
           "")
-thumbnail("Pharmpharmacology Anki", "images/danilo-alvesd-pill.png",
+thumbnail("Pharmpharmacology Anki Format", "images/danilo-alvesd-pill.png",
           "")
 thumbnail("Rookie Researcher", "images/dg_flavicon-dom-logo-550x550-NoBackground.png",
+          "rookie_researcher.html")
+thumbnail("Medical Spanish Flashcards", "images/paises_espanol.png",
           "rookie_researcher.html")
 ```
