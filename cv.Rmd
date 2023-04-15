@@ -2,11 +2,20 @@
 title: "Curriculum Vitae"
 ---
 
-<img src="images/grisafe_headshot.jpg" width="300"/>
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+source("utils.R")
+```
+
+<div>
+<img src="images/grisafe_headshot.jpg" width="300">
+</div>
+<br>
 
 ## Clinical Training
 
 ```{r include=FALSE, child="cv_child/_clinical_training.md"}
+source("utils.R")
 ```
 
 ## Education

@@ -4,7 +4,7 @@ title: "Dom's Blog"
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-library(htmltools)
+source("utils.R")
 ```
 
 <br>
@@ -14,17 +14,6 @@ Psychiatry | Epidemiology | Data Science
 <link rel="icon" type="image/png" href="image/dg_flavicon-dom-logo-550x550-NoBackground.png"/>
 
 <br>
-```{r}
-thumbnail <- function(title, img, href, caption = TRUE) {
-  div(class = "col-sm-6",
-      a(class = "thumbnail", title = title, href = href,
-        img(src = img),
-        div(class = if (caption) "caption",
-            if (caption) title)
-      )
-  )
-}
-```
 
 ```{r}
 thumbnail("Psychopharmacology Flashcards", "images/hal-gatewood-neuron.png",
