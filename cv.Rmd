@@ -11,7 +11,7 @@ source("utils.R")
 <img src="images/grisafe_headshot.jpg" width="300">
 </div>
 <br>
-
+ 
 ## Clinical Training
 
 ```{r include=FALSE, child="cv_child/_clinical_training.md"}
