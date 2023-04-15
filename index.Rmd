@@ -1,5 +1,5 @@
 ---
-title: "Dominic Grisafe"
+title: "Dom's Blog"
 ---
 
 ```{r setup, include=FALSE}
@@ -9,7 +9,7 @@ library(htmltools)
 
 <br>
 
-Psychiatry | Medicine | Epidemiology | Data Science
+Psychiatry | Epidemiology | Data Science
 
 <link rel="icon" type="image/png" href="image/dg_flavicon-dom-logo-550x550-NoBackground.png"/>
 
