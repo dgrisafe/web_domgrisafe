@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "Dominic Grisafe"
 ---
 
 ```{r setup, include=FALSE}
