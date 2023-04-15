@@ -29,8 +29,8 @@ thumbnail <- function(title, img, href, caption = TRUE) {
 ```{r}
 thumbnail("Psychopharmacology Flashcards", "images/hal-gatewood-neuron.png",
           "")
-thumbnail("Pharmacology Anki Format", "images/danilo-alvesd-pill.png",
-          "")
+thumbnail("Pharmacology Anki", "images/danilo-alvesd-pill.png",
+          "pharmacology_anki.Rmd")
 thumbnail("Rookie Researcher", "images/dg_flavicon-dom-logo-550x550-NoBackground.png",
           "rookie_researcher.html")
 thumbnail("Medical Spanish Flashcards", "images/paises_espanol.png",
