@@ -4,7 +4,6 @@ title: "Rookie Researcher"
 
 Introductory skills for clinical research
 
-
 ## Learning Science
 
 * [Zotero | Citation Management Recommendations](https://github.com/dgrisafe/rookie-researcher/blob/main/Zotero%20%7C%20Citation%20Management%20Recommendations.md)
@@ -13,7 +12,6 @@ Introductory skills for clinical research
 
 * [Styles in MS Word](https://support.microsoft.com/en-us/topic/the-styles-advantage-in-word-b4a6372f-188c-93cb-831b-c4dd0cb3a881) to automate table of contents and view sidebar navigation
 * [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/) 
-
 
 ## Data Science
 
@@ -29,6 +27,6 @@ Introductory skills for clinical research
 * [Outbreak Wrangling](https://github.com/dgrisafe/outbreak_wrangling)
 * [Debugging in R](https://adv-r.hadley.nz/debugging.html)
 
-### Regular Expressions
+#### Regular Expressions
 
 * [regex101](https://regex101.com/)
