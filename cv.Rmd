@@ -15,7 +15,6 @@ source("utils.R")
 ## Clinical Training
 
 ```{r include=FALSE, child="cv_child/_clinical_training.md"}
-source("utils.R")
 ```
 
 ## Education
