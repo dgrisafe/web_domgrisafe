@@ -11,11 +11,13 @@ source("utils.R")
 
 Psychiatry | Epidemiology | Data Science
 
+<link rel="icon" type="image/png" href="image/dg_flavicon-dom-logo-550x550-NoBackground.png"/>
+
 <br>
 
 ```{r}
-thumbnail("Psychopharmacology Flashcards", "images/hal-gatewood-neuron.png","#")
+thumbnail("Psychopharmacology Flashcards", "images/hal-gatewood-neuron.png","")
 thumbnail("Pharmacology Anki", "images/danilo-alvesd-pill.png", "pharmacology_anki.html")
 thumbnail("Rookie Researcher", "images/dg_flavicon-dom-logo-550x550-NoBackground.png", "rookie_researcher.html")
-thumbnail("Medical Spanish Flashcards", "images/paises_espanol.png", "#")
+thumbnail("Medical Spanish Flashcards", "images/paises_espanol.png", "")
 ```
