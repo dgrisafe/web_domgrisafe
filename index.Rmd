@@ -2,6 +2,8 @@
 title: "Dom's Blog"
 ---
 
+<link rel="icon" type="image/png" href="image/dg_flavicon-dom-logo-550x550-NoBackground.png">
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 source("utils.R")
@@ -10,8 +12,6 @@ source("utils.R")
 <br>
 
 Psychiatry | Epidemiology | Data Science
-
-<link rel="icon" type="image/png" href="image/dg_flavicon-dom-logo-550x550-NoBackground.png"/>
 
 <br>
 
