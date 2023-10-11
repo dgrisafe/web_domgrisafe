@@ -16,6 +16,7 @@ Psychiatry | Epidemiology
 <br>
 
 ```{r}
+thumbnail("Mental Status Exam", "images/mentalstatusexam.png", "https://bit.ly/mentalstatusexam")
 thumbnail("Psychopharmacology Flashcards", "images/hal-gatewood-neuron.png","")
 thumbnail("Pharmacology Anki", "images/danilo-alvesd-pill.png", "pharmacology_anki.html")
 thumbnail("Rookie Researcher", "images/dg_flavicon-dom-logo-550x550-NoBackground.png", "rookie_researcher.html")
