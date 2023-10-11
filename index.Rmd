@@ -17,6 +17,7 @@ Psychiatry | Epidemiology
 
 ```{r}
 thumbnail("Mental Status Exam", "images/mentalstatusexam.png", "https://bit.ly/mentalstatusexam")
+thumbnail("Erikson’s Stages of Psychosocial Development", "images/rod_long_unsplash.png", "eriksons_stages.html")
 thumbnail("Psychopharmacology Flashcards", "images/hal-gatewood-neuron.png","")
 thumbnail("Pharmacology Anki", "images/danilo-alvesd-pill.png", "pharmacology_anki.html")
 thumbnail("Rookie Researcher", "images/dg_flavicon-dom-logo-550x550-NoBackground.png", "rookie_researcher.html")

@@ -1,0 +1,36 @@
+---
+title: "Erikson’s Stages of Psychosocial Development"
+output:
+  html_document:
+    toc: TRUE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Summary
+
+| **Stage** | **Period** | **Age (years)** | **Syntactic** | **Dystonic** | **Virtue** | **Maldevelopment** | **Example** |
+| ----- | --------------- | ----------------- | ------------ | -------------------------- | ---------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| One   | Infancy         | 0–1.5    | Trust        | Mistrust                   | Hope       | Withdrawal          | secure environment provided by the caregiver, with regular access to affection and food                                                        |
+| Two   | Early Childhood | 2–3      | Autonomy     | Shame                      | Will       | Compulsion          | caregiver promotes self-sufficiency while maintaining a secure environment                                                                     |
+| Three | Play Age        | 3–5      | Initiative   | Guilt                      | Purpose    | Inhibition          | caregiver encourages, supports, and guides the child's own initiatives and interests                                                           |
+| Four  | School Age      | 6–11     | Industry     | Inferiority                | Competence | Inertia (Passivity) | reasonable expectations set in school and at home, with praise for their accomplishments                                                       |
+| Five  | Adolescence     | 12–18    | Ego Identity | Confusion/Diffusion        | Fidelity   | Repudiation         | individual weighs out their previous experiences, societal expectations, and their aspirations in establishing values and "finding themselves" |
+| Six   | Young Adulthood | 19–40    | Intimacy     | Isolation                  | Love       | Distantiation       | individual forms close friendships or long-term partnership                                                                                    |
+| Seven | Adulthood       | 40–65    | Generativity | Stagnation/Self-Absorption | Care       | Rejectivity         | engagement with the next generation through parenting, coaching, or teaching                                                                   |
+| Eight | Old Age         | 65–death | Integrity    | Despair                    | Wisdom     | Disdain             | contemplation and acknowledgment of personal life accomplishments                                                                              |
+
+## Flashcards
+
+**[Download](flashcards/eriksons_stages.apkg) for Anki** 
+
+
+## References
+
+* Erikson, E. H. <a href="https://www.google.com/books/edition/Childhood_and_Society/L-UrEpS3UbEC">Childhood and Society</a> (W. W. Norton Company, 1993)
+
+* Orenstein, G. A. et al. <a href="http://www.ncbi.nlm.nih.gov/books/NBK556096/">Eriksons Stages of Psychosocial Development</a> StatPearls (2022)
+
+* Long, R. <a href="https://unsplash.com/photos/y0OAmd_COUM">Family</a> Unsplash (2018)
