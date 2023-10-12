@@ -1,6 +1,6 @@
 name: "dominicgrisafe.com"
 navbar:
-  title: "Dominic Grisafe"
+  title: "Dom Grisafe"
   right:
     - text: "Blog"
       href: index.html
