@@ -2,7 +2,7 @@ name: "dominicgrisafe.com"
 navbar:
   title: "Dom Grisafe"
   right:
-    - text: "Blog"
+    - text: "Posts"
       href: index.html
       icon: fa-pen
     - text: "GitHub"
