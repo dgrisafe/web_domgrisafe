@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Summary
 
-| **Stage** | **Period** | **Age (years)** | **Syntactic** | **Dystonic** | **Virtue** | **Maldevelopment** | **Example** |
+| **Stage** | **Period** | **Years** | **Syntactic** | **Dystonic** | **Virtue** | **Maldevelopment** | **Example** |
 | ----- | --------------- | ----------------- | ------------ | -------------------------- | ---------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | One   | Infancy         | 0–1.5    | Trust        | Mistrust                   | Hope       | Withdrawal          | secure environment provided by the caregiver, with regular access to affection and food                                                        |
 | Two   | Early Childhood | 2–3      | Autonomy     | Shame                      | Will       | Compulsion          | caregiver promotes self-sufficiency while maintaining a secure environment                                                                     |
