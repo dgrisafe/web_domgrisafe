@@ -2,7 +2,7 @@
 title: "Erikson’s Stages of Psychosocial Development"
 output:
   html_document:
-    toc: TRUE
+    toc: FALSE
 ---
 
 ```{r setup, include=FALSE}
