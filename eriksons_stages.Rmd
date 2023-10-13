@@ -9,6 +9,10 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## Flashcards
+
+**[Download](flashcards/eriksons_stages.apkg)** for Anki
+
 ## Summary
 
 | **Stage** | **Period** | **Years** | **Syntactic** | **Dystonic** | **Virtue** | **Maldevelopment** | **Example** |
@@ -21,11 +25,6 @@ knitr::opts_chunk$set(echo = TRUE)
 | Six   | Young Adulthood | 19–40    | Intimacy     | Isolation                  | Love       | Distantiation       | individual forms close friendships or long-term partnership                                                                                    |
 | Seven | Adulthood       | 40–65    | Generativity | Stagnation/Self-Absorption | Care       | Rejectivity         | engagement with the next generation through parenting, coaching, or teaching                                                                   |
 | Eight | Old Age         | 65–death | Integrity    | Despair                    | Wisdom     | Disdain             | contemplation and acknowledgment of personal life accomplishments                                                                              |
-
-## Flashcards
-
-**[Download](flashcards/eriksons_stages.apkg) for Anki** 
-
 
 ## References
 
