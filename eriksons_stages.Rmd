@@ -9,9 +9,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Flashcards
-
-**[Download](flashcards/eriksons_stages.apkg)** for Anki
+**[Download Flashcards](flashcards/eriksons_stages.apkg)** for Anki
 
 ## Summary
 
