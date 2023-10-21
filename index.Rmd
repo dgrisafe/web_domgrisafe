@@ -1,7 +1,3 @@
----
-title: ""
----
-
 <link rel="icon" type="image/png" href="image/dg_flavicon-dom-logo-550x550-NoBackground.png">
 
 ```{r setup, include=FALSE}
