@@ -6,12 +6,9 @@ title: "Curriculum Vitae"
 knitr::opts_chunk$set(echo = FALSE)
 source("utils.R")
 ```
-
-<div>
-<img src="images/grisafe_headshot.jpg" width="300">
-</div>
-<br>
  
+Dominic Grisafe, MD PhD
+
 ## Clinical Training
 
 ```{r include=FALSE, child="cv_child/_clinical_training.md"}
