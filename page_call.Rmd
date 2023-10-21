@@ -1,0 +1,18 @@
+---
+title: "On Call"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+source("utils.R")
+```
+
+* [H&P Psychiatry Template](https:/bit.ly/hppsychiatry)
+
+## Illinois Documents
+
+* [Application for Voluntary Admission](https://www.dhs.state.il.us/onenetlibrary/12/documents/Forms/IL462-2202M.pdf)
+* [Petition for Involuntary Admission](https://www.dhs.state.il.us/onenetlibrary/12/documents/Forms/IL462-2005.pdf)
+* [Inpatient Certificate](https://www.dhs.state.il.us/onenetlibrary/12/documents/Forms/IL462-2006.pdf)
+* [Consent to Medication](https://www.dhs.state.il.us/onenetlibrary/12/documents/Forms/IL462-0012MA.pdf)
+* [Restriction of Rights](https://www.dhs.state.il.us/onenetlibrary/12/documents/Forms/IL462-2004M.pdf)
