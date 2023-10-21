@@ -9,7 +9,7 @@ navbar:
       href: https://github.com/dgrisafe
       icon: fa-github
     - text: "CV"
-      href: page_cv.html
+      href: cv.html
       icon: fa-file
 output:
   html_document:

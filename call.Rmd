@@ -7,7 +7,7 @@ knitr::opts_chunk$set(echo = FALSE)
 source("utils.R")
 ```
 
-* [H&P Psychiatry Template](https:/bit.ly/hppsychiatry)
+* [H&P Psychiatry Template](downloads/hp_psychiatry_20231021.pdf)
 
 ## Illinois Documents
 
