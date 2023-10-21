@@ -13,7 +13,7 @@ navbar:
       icon: fa-file
 output:
   html_document:
-    theme: darkly
+    theme: yeti
     highlight: textmate
     css: styles.css
     
