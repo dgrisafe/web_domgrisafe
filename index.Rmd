@@ -13,3 +13,16 @@ thumbnail("Flashcards: Psychopharmacology", "images/hal-gatewood-neuron.png","")
 thumbnail("Flashcards: Pharmacology", "images/danilo-alvesd-pill.png", "post_pharmacology_anki.html")
 thumbnail("Post: Rookie Researcher", "images/dg_flavicon-dom-logo-550x550-NoBackground.png", "post_rookie_researcher.html")
 ```
+
+```{r}
+# To-Do Posts
+# 
+# * [ ] Diagnoses by Time
+# * [ ] Antipsychotics
+# * [ ] Clozapine
+# * [ ] Pharmacology Flashcards
+# * 
+# * 
+# * 
+```
+
