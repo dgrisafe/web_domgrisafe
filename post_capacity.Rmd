@@ -1,0 +1,321 @@
+---
+title: "Capacity"
+output:
+  html_document:
+    toc: TRUE
+    toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<!-- **[Download Flashcards](flashcards/capacity.apkg)** for Anki -->
+
+## Introduction
+
+*Capacity* is determined: 
+
+* At a specific time 
+* For a given procedure or treatment
+* By the provider offering the intervention
+
+*Informed Consent* is distinct from Capacity.
+
+Specific *Pathologies* do not automatically determine capacity; myriad etiologies can exclude a patient from having capacity.
+
+## Capacity is *Not* the Absence of Mental Illness
+
+*Psychiatric Illness* does not mean a patient lacks capacity. 
+
+Capacity must be formally evaluated for each procedure at the time it is offered.
+
+e.g., Capacity is difficult to determine for a depressed patient with a terminal illness pursing comfort care as a passive way to end their life.
+
+## Capacity Determined by Psychiatry is *Not* a Legal Protection
+
+The psychiatry service may be consulted for a second opinion of capacity, but this does not protect the primary team from liability; psychiatry is *not* responsible for capacity. 
+
+e.g., Neurology is responsible for determining capacity if they want to offer a lumbar puncture.
+
+## Competency is *Not* Capacity
+
+*Competency* is a legal definition determined by a judge or lawyer. 
+
+*Capacity* is a medical definition determined by a physician.
+
+Capacity is short-term, at a specific moment in time.
+
+
+
+## Applebaum Criteria for Capacity
+
+Patients are assumed to lack capacity until a provider performs a formal evaluation.
+
+i.e., Patients are "guilty until proven innocent" with respect to capacity.
+
+*Applebaum Criteria* are formally assessed to determine capacity using the *MacArthur Competence Assessment*.
+
+The criteria are in ascending order of difficulty to assess.
+
+### 1. Communicate a *Clear and Consistent* Choice
+
+The easiest criteria to assess 
+
+A patient lacks capacity if they cannot communicate a clear choice.
+
+e.g., A patient in a coma that cannot speak.
+
+A patient lacks capacity if they change their mind about a treatment without being presented with additional information or explaining a new thought processes.
+
+### 2. Understand Relevant Information
+
+Patients have capacity to accept or decline a treatment when they can explain the *risks*, *benefits*, and *alternatives*.
+
+Medical providers can often determine this aspect of capacity.
+
+Providers often focus on the patient's understanding, but this is not sufficient to determine capacity.
+
+### 3. Appreciate Ramifications of Procedure
+
+The patient with capacity appreciates that risks are genuine and that they apply to themselves.
+
+e.g., A patient lacking capacity might say, "Sure the operation is risky, but *I* would never die during neurosurgery!"
+
+A patient would also lack capacity if they minimize the risk that a treatment may have on their wellbeing.
+
+e.g., A patient lacking capacity might state, "Losing a limb would be fine. I would live the same life I have now."
+
+### 4. Reasoning Intact
+
+The most difficult criteria to assess 
+
+Can they explain *why* they are making their choice?
+
+Is the patient making a unique decision that someone from their community would never choose?
+
+e.g., A patient with throat cancer was refusing a biopsy and chemotherapy, but accepted radiation because they believed this modality was a magical cure-all.
+
+If something doesn't feel right, dig further.
+
+#### e.g., Kidney Donation due to Psychotic Reasoning
+
+A 30 year old female wanted to generously donate her kidney to a child in the neighborhood who was at risk of death from renal failure.
+
+On evaluation, the team learned the patient wanted to donate only her left kidney because she believed there was a demon living within this part of her body. 
+
+She believed donation was the only way to exercise the spirit from her body.
+
+This patient lacked capacity because of her psychotic thought process despite a superficially noble act.
+
+#### Religious Exemption to Intact Reasoning
+
+e.g., Jehovah's Witness belong to a community that rejects blood products.
+
+A caveat is the person must hold these values at baseline.
+
+i.e., They cannot have recently adopted religious values at the time of their procedure.
+
+e.g., A manic patient that declares they joined the Jehovah's Witness faith that day lacks capacity to reject blood products if their life depended on them.
+
+## Timeline for Capacity
+
+If there is an imminent loss of life or limb to the patient, providers may proceed with standard of care to improve a patient's health.
+
+Hospital policy sometimes requires two physicians to sign if a patient lacks capacity for a high risk treatment, but this is not a legal requirement.
+
+## Hierarchy of Medical Decision Maker
+
+Medical decision makers may be legally assigned. 
+
+* Power of Attorney
+* Medical Conservator (e.g., LPS conservator)
+* Previous Surrogate
+
+Where no legal decision maker has been identified, hospital protocol may assign the *next of kin* in a formal order.
+
+* Spouse
+* Adult Children
+* Parents
+* Siblings
+* Someone who knows the patient (e.g., neighbor, bartender)
+
+Note, if multiple family members are involved, ask the group to identify one person to make medical decision makers and liaison communication between the group and the providers.
+
+## Substituted Judgement
+
+Medical decision makers must do their best to make choices based on their familiarity with the patient's judgement.
+
+Ethically, decision makers should do their best to substitute the patient's judgement for their own when making decisions on behalf of a patient lacking capacity.
+
+A new surrogate should be identified if the existing medical decision maker is unable to substitute the patient's judgement for their own.
+
+The surrogate decision maker is not legally required to use substituted judgement; if this is the case:
+
+* Maintain continuous conversation with the decision maker
+* Consider calling an *ethics committee* 
+
+### e.g., Jehovah's Witness Wife of Surgery Patient
+
+The wife of an obtunded patient was Jehovah's Witness, but the patient was Presbyterian. 
+
+The wife insisted her unconscious husband not receive blood products during his life-saving operation, but she could not explain that the patient would have wanted this using his own judgement. 
+
+She repeatedly demanded the providers not give her spouse blood products of any kind.
+
+It appeared to the providers that she may have been unable to substitute the patient's judgement for her own by refusing blood products for the patient. 
+
+Eventually, the surgeons opted to conserve blood during the operation and were able to successfully complete the surgery without blood products.
+
+When the patient returned to consciousness, he explained that he had promised the wife he would never receive blood products, and they would be conditionally divorced if he ever violated this agreement.
+
+The decision maker was using substituted judgement, but she was unable to explain her rationale to the providers.
+
+## "Best Interest" Model
+
+When there is no decision maker, consulting providers may act in the best interest of the patient.
+
+Treating physicians may act in a way that they deem reasonable.
+
+Providers are unable to use substituted judgement in the "Best Interest" model because the providers are unfamiliar with the patient's values.
+
+This option is less ideal for making treatment decisions on behalf of the patient. 
+
+Therefore, it is reserved for cases where patient's lack a medical decision maker.
+
+## Exceptions to Surrogate Decision Maker
+
+### Futility of Treatment
+
+e.g., Surrogate decision maker says to do CPR, but the patient is already dead
+
+### Sterilization
+
+Parents cannot force their children to be sterilized against their will.
+
+### Involuntary Hospitalization
+
+Patients must be placed on a hold and found to lack competency by a judge to be involuntary hospitalized.
+
+## Threshold for Capacity
+
+Providers must balance the risk of a treatment with the benefit it would provide the patient.
+
+### Sliding Scale
+
+A patient may have capacity to accept a treatment at a given snapshot in time, while lacking capacity to refuse the same treatment.
+
+e.g., IV Fluids for Rhabdomyolysis
+
+### Punnet Square of Risk and Benefits
+
+|              | High Risk                                                      | Low Risk                                                       |
+|--------------|----------------------------------------------------------------|----------------------------------------------------------------|
+| High Benefit | Clinical Judgement                                             | IV Fluids for Rhabdomyolysis |
+| Low Benefit  | Palliative Chemotherapy | Clinical Judgement                                             |
+
+## After Capacity is Determined
+
+What's next after evaluating whether a patient has or lacks capacity?
+
+### Patients with Capacity
+
+Do not provide treatments to patients that are found to have capacity and are refusing.
+
+Document using the MacArthur Criteria.[@appelbaum_1995_macarthur]
+
+### Patients Lacking Capacity
+
+*Emergency* treatments may be performed without determining capacity by acting on *good faith*.
+
+*Nonemergent* treatments:
+
+* Help the patient regain capacity
+
+    e.g., let a patient on lorazepam metabolize the drug before offering high-risk, low benefit treatment
+* Defer to an *Advance Directive* that may provide instruction of the patient's wishes at an earlier time when they had capacity.
+* Defer to a *Power of Attorney* or other medical decision maker
+
+*Unbefriended* patients lack someone who knows them and could serve as their medical decision maker:
+
+* Call an *Ethics Committee* to make a decision
+* Defer to the courts, although this is rare
+
+## Ethical and Logistical Consequences of Involuntary Treatment
+
+A patient lacking capacity that is refusing life-saving treatments may be unable to receive the intervention due to logistic or ethical hurtles.
+
+### e.g., Forced Chemotherapy
+
+A cancer patient refusing chemotherapy would require restraints, incarceration, and sedation to receive treatment.
+
+Balance risks against potential benefits
+
+Consider the trauma and additional cost of forced chemotherapy versus 5 months of longer life
+
+### e.g., Surgery Follow-Up without Compliance
+
+A patient lacking capacity should not undergo surgery that requires long term follow-up; avoid painful consequences if they are not expected to cooperate with longitudinal care.
+
+A psychotic patient cut off their finger because they believed it was cursed.
+
+The surgeons had the finger and were confident they could reattach it.
+
+But successful reattachment would require the patient to adhere to regular dressing changes and physical therapy.
+
+The patient told the providers that if they reattached it he would sever it again promptly.
+
+The surgeons opted not to reattach the finger due to logistical challenges despite that the patient lacked capacity.
+
+## Other Types of Capacity
+
+*Testamentary capacity* is when clients are writing a will, they must be of "sound mind"
+
+*Maternal capacity* by mothers to make decisions for their children
+
+## State-Specific Laws Related to Capacity
+
+### Illinois Laws Related to Capacity
+
+* Legal Guardian
+* Power of Attorney
+* Mental Health Declaration
+
+### California Laws Related to Capacity
+
+In California, patients cannot be force to receive electroconvulsive therapy against their will.
+
+In California, healthcare providers must obtain a *Riese Petition* to administer psychiatric medcations against the will of a patient lacking capacity.
+
+#### Competency in California
+
+Competency is long-term and, in the State of California, may last: 
+
+* Days (e.g., 5150 hold, 5250 hold)
+* 1 Year (e.g., LPS)
+* Indefinitely (e.g., probate) 
+
+##### *Conserved* patients Lack Competency
+
+*Probate conserved* patients are indefinitely unable to make their own decisions.
+
+e.g., Patients with irreversible dementia, cognitive impairment, or autism
+
+In California, *Lanterman-Petris-Short (LPS) conserved* patients are determined by the courts to be *gravely disabled* (i.e., unable to obtain food, clothing, or housing). 
+
+For 1 year they are considered incompetent to make their own decisions about treatment, supervision, or placement services.
+
+##### Defer to the Conservator
+
+Ask the conservator to make all medical decisions for the patient.
+
+Conservatorships may be for specific indications.
+
+## References
+
+* Appelbaum, P. S. et al. <a href="https://doi.org/10.1056/NEJM198812223192504">Assessing Patients’ Capacities to Consent to Treatment</a> N Engl J Med 319, 1635–1638 (1988)
+* Grisso, T. et al. Assessing Competence to Consent to Treatment: A Guide for Physicians and Other Health Professionals (Oxford University Press, 1998)
+* Chow, G. V. et al. <a href="https://doi.org/10.1378/chest.09-1133">CURVES: A Mnemonic for Determining Medical Decision-Making Capacity and Providing Emergency Treatment in the Acute Setting</a> Chest 137, 421–427 (2010)
+* <a href="http://pubmed.ncbi.nlm.nih.gov/11648567/">Riese v. St. Mary’s Hospital and Medical Center</a> West’s California reporter 243, (1988)
+* Beard, O. <a href="https://unsplash.com/photos/citiscan-result-hand-ok-DK8jXx1B-1c">As It Turns out, Everything Was Okay.</a> (2018)
+

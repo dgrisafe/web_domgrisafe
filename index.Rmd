@@ -5,7 +5,10 @@ knitr::opts_chunk$set(echo = FALSE)
 source("utils.R")
 ```
 
+<!-- rmarkdown::render_site() -->
+
 ```{r}
+thumbnail("Post: Capacity", "images/capacity.png", "post_capacity.html")
 thumbnail("Talk: Mental Status Exam 10/2/2023", "images/mentalstatusexam.png", "https://bit.ly/mentalstatusexam")
 thumbnail("Flashcards: Agitation Psychopharmacology", "images/agitation_psychopharmacology.png", "post_agitation_psychopharmacology.html")
 thumbnail("Flashcards: Erikson’s Psychosocial Stages", "images/rod_long_unsplash.png", "post_eriksons_stages.html")

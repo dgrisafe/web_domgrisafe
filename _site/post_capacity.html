@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Capacity</title>
+
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Dom Grisafe</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-pen"></span>
+     
+    Posts
+  </a>
+</li>
+<li>
+  <a href="https://github.com/dgrisafe">
+    <span class="fa fa-github"></span>
+     
+    GitHub
+  </a>
+</li>
+<li>
+  <a href="cv.html">
+    <span class="fa fa-file"></span>
+     
+    CV
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Capacity</h1>
+
+</div>
+
+<div id="TOC">
+<ul>
+<li><a href="#introduction" id="toc-introduction">Introduction</a></li>
+<li><a href="#capacity-is-not-the-absence-of-mental-illness"
+id="toc-capacity-is-not-the-absence-of-mental-illness">Capacity is
+<em>Not</em> the Absence of Mental Illness</a></li>
+<li><a
+href="#capacity-determined-by-psychiatry-is-not-a-legal-protection"
+id="toc-capacity-determined-by-psychiatry-is-not-a-legal-protection">Capacity
+Determined by Psychiatry is <em>Not</em> a Legal Protection</a></li>
+<li><a href="#competency-is-not-capacity"
+id="toc-competency-is-not-capacity">Competency is <em>Not</em>
+Capacity</a></li>
+<li><a href="#applebaum-criteria-for-capacity"
+id="toc-applebaum-criteria-for-capacity">Applebaum Criteria for
+Capacity</a></li>
+<li><a href="#timeline-for-capacity"
+id="toc-timeline-for-capacity">Timeline for Capacity</a></li>
+<li><a href="#hierarchy-of-medical-decision-maker"
+id="toc-hierarchy-of-medical-decision-maker">Hierarchy of Medical
+Decision Maker</a></li>
+<li><a href="#substituted-judgement"
+id="toc-substituted-judgement">Substituted Judgement</a></li>
+<li><a href="#best-interest-model" id="toc-best-interest-model">“Best
+Interest” Model</a></li>
+<li><a href="#exceptions-to-surrogate-decision-maker"
+id="toc-exceptions-to-surrogate-decision-maker">Exceptions to Surrogate
+Decision Maker</a></li>
+<li><a href="#threshold-for-capacity"
+id="toc-threshold-for-capacity">Threshold for Capacity</a></li>
+<li><a href="#after-capacity-is-determined"
+id="toc-after-capacity-is-determined">After Capacity is
+Determined</a></li>
+<li><a
+href="#ethical-and-logistical-consequences-of-involuntary-treatment"
+id="toc-ethical-and-logistical-consequences-of-involuntary-treatment">Ethical
+and Logistical Consequences of Involuntary Treatment</a></li>
+<li><a href="#other-types-of-capacity"
+id="toc-other-types-of-capacity">Other Types of Capacity</a></li>
+<li><a href="#state-specific-laws-related-to-capacity"
+id="toc-state-specific-laws-related-to-capacity">State-Specific Laws
+Related to Capacity</a></li>
+<li><a href="#references" id="toc-references">References</a></li>
+</ul>
+</div>
+
+<!-- **[Download Flashcards](flashcards/capacity.apkg)** for Anki -->
+<div id="introduction" class="section level2">
+<h2>Introduction</h2>
+<p><em>Capacity</em> is determined:</p>
+<ul>
+<li>At a specific time</li>
+<li>For a given procedure or treatment</li>
+<li>By the provider offering the intervention</li>
+</ul>
+<p><em>Informed Consent</em> is distinct from Capacity.</p>
+<p>Specific <em>Pathologies</em> do not automatically determine
+capacity; myriad etiologies can exclude a patient from having
+capacity.</p>
+</div>
+<div id="capacity-is-not-the-absence-of-mental-illness"
+class="section level2">
+<h2>Capacity is <em>Not</em> the Absence of Mental Illness</h2>
+<p><em>Psychiatric Illness</em> does not mean a patient lacks
+capacity.</p>
+<p>Capacity must be formally evaluated for each procedure at the time it
+is offered.</p>
+<p>e.g., Capacity is difficult to determine for a depressed patient with
+a terminal illness pursing comfort care as a passive way to end their
+life.</p>
+</div>
+<div id="capacity-determined-by-psychiatry-is-not-a-legal-protection"
+class="section level2">
+<h2>Capacity Determined by Psychiatry is <em>Not</em> a Legal
+Protection</h2>
+<p>The psychiatry service may be consulted for a second opinion of
+capacity, but this does not protect the primary team from liability;
+psychiatry is <em>not</em> responsible for capacity.</p>
+<p>e.g., Neurology is responsible for determining capacity if they want
+to offer a lumbar puncture.</p>
+</div>
+<div id="competency-is-not-capacity" class="section level2">
+<h2>Competency is <em>Not</em> Capacity</h2>
+<p><em>Competency</em> is a legal definition determined by a judge or
+lawyer.</p>
+<p><em>Capacity</em> is a medical definition determined by a
+physician.</p>
+<p>Capacity is short-term, at a specific moment in time.</p>
+</div>
+<div id="applebaum-criteria-for-capacity" class="section level2">
+<h2>Applebaum Criteria for Capacity</h2>
+<p>Patients are assumed to lack capacity until a provider performs a
+formal evaluation.</p>
+<p>i.e., Patients are “guilty until proven innocent” with respect to
+capacity.</p>
+<p><em>Applebaum Criteria</em> are formally assessed to determine
+capacity using the <em>MacArthur Competence Assessment</em>.</p>
+<p>The criteria are in ascending order of difficulty to assess.</p>
+<div id="communicate-a-clear-and-consistent-choice"
+class="section level3">
+<h3>1. Communicate a <em>Clear and Consistent</em> Choice</h3>
+<p>The easiest criteria to assess</p>
+<p>A patient lacks capacity if they cannot communicate a clear
+choice.</p>
+<p>e.g., A patient in a coma that cannot speak.</p>
+<p>A patient lacks capacity if they change their mind about a treatment
+without being presented with additional information or explaining a new
+thought processes.</p>
+</div>
+<div id="understand-relevant-information" class="section level3">
+<h3>2. Understand Relevant Information</h3>
+<p>Patients have capacity to accept or decline a treatment when they can
+explain the <em>risks</em>, <em>benefits</em>, and
+<em>alternatives</em>.</p>
+<p>Medical providers can often determine this aspect of capacity.</p>
+<p>Providers often focus on the patient’s understanding, but this is not
+sufficient to determine capacity.</p>
+</div>
+<div id="appreciate-ramifications-of-procedure" class="section level3">
+<h3>3. Appreciate Ramifications of Procedure</h3>
+<p>The patient with capacity appreciates that risks are genuine and that
+they apply to themselves.</p>
+<p>e.g., A patient lacking capacity might say, “Sure the operation is
+risky, but <em>I</em> would never die during neurosurgery!”</p>
+<p>A patient would also lack capacity if they minimize the risk that a
+treatment may have on their wellbeing.</p>
+<p>e.g., A patient lacking capacity might state, “Losing a limb would be
+fine. I would live the same life I have now.”</p>
+</div>
+<div id="reasoning-intact" class="section level3">
+<h3>4. Reasoning Intact</h3>
+<p>The most difficult criteria to assess</p>
+<p>Can they explain <em>why</em> they are making their choice?</p>
+<p>Is the patient making a unique decision that someone from their
+community would never choose?</p>
+<p>e.g., A patient with throat cancer was refusing a biopsy and
+chemotherapy, but accepted radiation because they believed this modality
+was a magical cure-all.</p>
+<p>If something doesn’t feel right, dig further.</p>
+<div id="e.g.-kidney-donation-due-to-psychotic-reasoning"
+class="section level4">
+<h4>e.g., Kidney Donation due to Psychotic Reasoning</h4>
+<p>A 30 year old female wanted to generously donate her kidney to a
+child in the neighborhood who was at risk of death from renal
+failure.</p>
+<p>On evaluation, the team learned the patient wanted to donate only her
+left kidney because she believed there was a demon living within this
+part of her body.</p>
+<p>She believed donation was the only way to exercise the spirit from
+her body.</p>
+<p>This patient lacked capacity because of her psychotic thought process
+despite a superficially noble act.</p>
+</div>
+<div id="religious-exemption-to-intact-reasoning"
+class="section level4">
+<h4>Religious Exemption to Intact Reasoning</h4>
+<p>e.g., Jehovah’s Witness belong to a community that rejects blood
+products.</p>
+<p>A caveat is the person must hold these values at baseline.</p>
+<p>i.e., They cannot have recently adopted religious values at the time
+of their procedure.</p>
+<p>e.g., A manic patient that declares they joined the Jehovah’s Witness
+faith that day lacks capacity to reject blood products if their life
+depended on them.</p>
+</div>
+</div>
+</div>
+<div id="timeline-for-capacity" class="section level2">
+<h2>Timeline for Capacity</h2>
+<p>If there is an imminent loss of life or limb to the patient,
+providers may proceed with standard of care to improve a patient’s
+health.</p>
+<p>Hospital policy sometimes requires two physicians to sign if a
+patient lacks capacity for a high risk treatment, but this is not a
+legal requirement.</p>
+</div>
+<div id="hierarchy-of-medical-decision-maker" class="section level2">
+<h2>Hierarchy of Medical Decision Maker</h2>
+<p>Medical decision makers may be legally assigned.</p>
+<ul>
+<li>Power of Attorney</li>
+<li>Medical Conservator (e.g., LPS conservator)</li>
+<li>Previous Surrogate</li>
+</ul>
+<p>Where no legal decision maker has been identified, hospital protocol
+may assign the <em>next of kin</em> in a formal order.</p>
+<ul>
+<li>Spouse</li>
+<li>Adult Children</li>
+<li>Parents</li>
+<li>Siblings</li>
+<li>Someone who knows the patient (e.g., neighbor, bartender)</li>
+</ul>
+<p>Note, if multiple family members are involved, ask the group to
+identify one person to make medical decision makers and liaison
+communication between the group and the providers.</p>
+</div>
+<div id="substituted-judgement" class="section level2">
+<h2>Substituted Judgement</h2>
+<p>Medical decision makers must do their best to make choices based on
+their familiarity with the patient’s judgement.</p>
+<p>Ethically, decision makers should do their best to substitute the
+patient’s judgement for their own when making decisions on behalf of a
+patient lacking capacity.</p>
+<p>A new surrogate should be identified if the existing medical decision
+maker is unable to substitute the patient’s judgement for their own.</p>
+<p>The surrogate decision maker is not legally required to use
+substituted judgement; if this is the case:</p>
+<ul>
+<li>Maintain continuous conversation with the decision maker</li>
+<li>Consider calling an <em>ethics committee</em></li>
+</ul>
+<div id="e.g.-jehovahs-witness-wife-of-surgery-patient"
+class="section level3">
+<h3>e.g., Jehovah’s Witness Wife of Surgery Patient</h3>
+<p>The wife of an obtunded patient was Jehovah’s Witness, but the
+patient was Presbyterian.</p>
+<p>The wife insisted her unconscious husband not receive blood products
+during his life-saving operation, but she could not explain that the
+patient would have wanted this using his own judgement.</p>
+<p>She repeatedly demanded the providers not give her spouse blood
+products of any kind.</p>
+<p>It appeared to the providers that she may have been unable to
+substitute the patient’s judgement for her own by refusing blood
+products for the patient.</p>
+<p>Eventually, the surgeons opted to conserve blood during the operation
+and were able to successfully complete the surgery without blood
+products.</p>
+<p>When the patient returned to consciousness, he explained that he had
+promised the wife he would never receive blood products, and they would
+be conditionally divorced if he ever violated this agreement.</p>
+<p>The decision maker was using substituted judgement, but she was
+unable to explain her rationale to the providers.</p>
+</div>
+</div>
+<div id="best-interest-model" class="section level2">
+<h2>“Best Interest” Model</h2>
+<p>When there is no decision maker, consulting providers may act in the
+best interest of the patient.</p>
+<p>Treating physicians may act in a way that they deem reasonable.</p>
+<p>Providers are unable to use substituted judgement in the “Best
+Interest” model because the providers are unfamiliar with the patient’s
+values.</p>
+<p>This option is less ideal for making treatment decisions on behalf of
+the patient.</p>
+<p>Therefore, it is reserved for cases where patient’s lack a medical
+decision maker.</p>
+</div>
+<div id="exceptions-to-surrogate-decision-maker" class="section level2">
+<h2>Exceptions to Surrogate Decision Maker</h2>
+<div id="futility-of-treatment" class="section level3">
+<h3>Futility of Treatment</h3>
+<p>e.g., Surrogate decision maker says to do CPR, but the patient is
+already dead</p>
+</div>
+<div id="sterilization" class="section level3">
+<h3>Sterilization</h3>
+<p>Parents cannot force their children to be sterilized against their
+will.</p>
+</div>
+<div id="involuntary-hospitalization" class="section level3">
+<h3>Involuntary Hospitalization</h3>
+<p>Patients must be placed on a hold and found to lack competency by a
+judge to be involuntary hospitalized.</p>
+</div>
+</div>
+<div id="threshold-for-capacity" class="section level2">
+<h2>Threshold for Capacity</h2>
+<p>Providers must balance the risk of a treatment with the benefit it
+would provide the patient.</p>
+<div id="sliding-scale" class="section level3">
+<h3>Sliding Scale</h3>
+<p>A patient may have capacity to accept a treatment at a given snapshot
+in time, while lacking capacity to refuse the same treatment.</p>
+<p>e.g., IV Fluids for Rhabdomyolysis</p>
+</div>
+<div id="punnet-square-of-risk-and-benefits" class="section level3">
+<h3>Punnet Square of Risk and Benefits</h3>
+<table>
+<colgroup>
+<col width="9%" />
+<col width="45%" />
+<col width="45%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>High Risk</th>
+<th>Low Risk</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>High Benefit</td>
+<td>Clinical Judgement</td>
+<td>IV Fluids for Rhabdomyolysis</td>
+</tr>
+<tr class="even">
+<td>Low Benefit</td>
+<td>Palliative Chemotherapy</td>
+<td>Clinical Judgement</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="after-capacity-is-determined" class="section level2">
+<h2>After Capacity is Determined</h2>
+<p>What’s next after evaluating whether a patient has or lacks
+capacity?</p>
+<div id="patients-with-capacity" class="section level3">
+<h3>Patients with Capacity</h3>
+<p>Do not provide treatments to patients that are found to have capacity
+and are refusing.</p>
+<p>Document using the MacArthur Criteria.<span
+class="citation">[@appelbaum_1995_macarthur]</span></p>
+</div>
+<div id="patients-lacking-capacity" class="section level3">
+<h3>Patients Lacking Capacity</h3>
+<p><em>Emergency</em> treatments may be performed without determining
+capacity by acting on <em>good faith</em>.</p>
+<p><em>Nonemergent</em> treatments:</p>
+<ul>
+<li><p>Help the patient regain capacity</p>
+<p>e.g., let a patient on lorazepam metabolize the drug before offering
+high-risk, low benefit treatment</p></li>
+<li><p>Defer to an <em>Advance Directive</em> that may provide
+instruction of the patient’s wishes at an earlier time when they had
+capacity.</p></li>
+<li><p>Defer to a <em>Power of Attorney</em> or other medical decision
+maker</p></li>
+</ul>
+<p><em>Unbefriended</em> patients lack someone who knows them and could
+serve as their medical decision maker:</p>
+<ul>
+<li>Call an <em>Ethics Committee</em> to make a decision</li>
+<li>Defer to the courts, although this is rare</li>
+</ul>
+</div>
+</div>
+<div id="ethical-and-logistical-consequences-of-involuntary-treatment"
+class="section level2">
+<h2>Ethical and Logistical Consequences of Involuntary Treatment</h2>
+<p>A patient lacking capacity that is refusing life-saving treatments
+may be unable to receive the intervention due to logistic or ethical
+hurtles.</p>
+<div id="e.g.-forced-chemotherapy" class="section level3">
+<h3>e.g., Forced Chemotherapy</h3>
+<p>A cancer patient refusing chemotherapy would require restraints,
+incarceration, and sedation to receive treatment.</p>
+<p>Balance risks against potential benefits</p>
+<p>Consider the trauma and additional cost of forced chemotherapy versus
+5 months of longer life</p>
+</div>
+<div id="e.g.-surgery-follow-up-without-compliance"
+class="section level3">
+<h3>e.g., Surgery Follow-Up without Compliance</h3>
+<p>A patient lacking capacity should not undergo surgery that requires
+long term follow-up; avoid painful consequences if they are not expected
+to cooperate with longitudinal care.</p>
+<p>A psychotic patient cut off their finger because they believed it was
+cursed.</p>
+<p>The surgeons had the finger and were confident they could reattach
+it.</p>
+<p>But successful reattachment would require the patient to adhere to
+regular dressing changes and physical therapy.</p>
+<p>The patient told the providers that if they reattached it he would
+sever it again promptly.</p>
+<p>The surgeons opted not to reattach the finger due to logistical
+challenges despite that the patient lacked capacity.</p>
+</div>
+</div>
+<div id="other-types-of-capacity" class="section level2">
+<h2>Other Types of Capacity</h2>
+<p><em>Testamentary capacity</em> is when clients are writing a will,
+they must be of “sound mind”</p>
+<p><em>Maternal capacity</em> by mothers to make decisions for their
+children</p>
+</div>
+<div id="state-specific-laws-related-to-capacity"
+class="section level2">
+<h2>State-Specific Laws Related to Capacity</h2>
+<div id="illinois-laws-related-to-capacity" class="section level3">
+<h3>Illinois Laws Related to Capacity</h3>
+<ul>
+<li>Legal Guardian</li>
+<li>Power of Attorney</li>
+<li>Mental Health Declaration</li>
+</ul>
+</div>
+<div id="california-laws-related-to-capacity" class="section level3">
+<h3>California Laws Related to Capacity</h3>
+<p>In California, patients cannot be force to receive electroconvulsive
+therapy against their will.</p>
+<p>In California, healthcare providers must obtain a <em>Riese
+Petition</em> to administer psychiatric medcations against the will of a
+patient lacking capacity.</p>
+<div id="competency-in-california" class="section level4">
+<h4>Competency in California</h4>
+<p>Competency is long-term and, in the State of California, may
+last:</p>
+<ul>
+<li>Days (e.g., 5150 hold, 5250 hold)</li>
+<li>1 Year (e.g., LPS)</li>
+<li>Indefinitely (e.g., probate)</li>
+</ul>
+<div id="conserved-patients-lack-competency" class="section level5">
+<h5><em>Conserved</em> patients Lack Competency</h5>
+<p><em>Probate conserved</em> patients are indefinitely unable to make
+their own decisions.</p>
+<p>e.g., Patients with irreversible dementia, cognitive impairment, or
+autism</p>
+<p>In California, <em>Lanterman-Petris-Short (LPS) conserved</em>
+patients are determined by the courts to be <em>gravely disabled</em>
+(i.e., unable to obtain food, clothing, or housing).</p>
+<p>For 1 year they are considered incompetent to make their own
+decisions about treatment, supervision, or placement services.</p>
+</div>
+<div id="defer-to-the-conservator" class="section level5">
+<h5>Defer to the Conservator</h5>
+<p>Ask the conservator to make all medical decisions for the
+patient.</p>
+<p>Conservatorships may be for specific indications.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="references" class="section level2">
+<h2>References</h2>
+<ul>
+<li>Appelbaum, P. S. et
+al. <a href="https://doi.org/10.1056/NEJM198812223192504">Assessing
+Patients’ Capacities to Consent to Treatment</a> N Engl J Med 319,
+1635–1638 (1988)</li>
+<li>Grisso, T. et al. Assessing Competence to Consent to Treatment: A
+Guide for Physicians and Other Health Professionals (Oxford University
+Press, 1998)</li>
+<li>Chow, G. V. et
+al. <a href="https://doi.org/10.1378/chest.09-1133">CURVES: A Mnemonic
+for Determining Medical Decision-Making Capacity and Providing Emergency
+Treatment in the Acute Setting</a> Chest 137, 421–427 (2010)</li>
+<li><a href="http://pubmed.ncbi.nlm.nih.gov/11648567/">Riese v.
+St. Mary’s Hospital and Medical Center</a> West’s California reporter
+243, (1988)</li>
+<li>Beard, O.
+<a href="https://unsplash.com/photos/citiscan-result-hand-ok-DK8jXx1B-1c">As
+It Turns out, Everything Was Okay.</a> (2018)</li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
