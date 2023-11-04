@@ -24,7 +24,7 @@ thumbnail("Post: Rookie Researcher", "images/dg_flavicon-dom-logo-550x550-NoBack
 # * [ ] Antipsychotics
 # * [ ] Clozapine
 # * [ ] Pharmacology Flashcards
-# * 
+# * [ ] Capacity Criteria
 # * 
 # * 
 ```
