@@ -44,7 +44,7 @@ e.g., Neurology is responsible for determining capacity if they want to offer a 
 
 *Capacity* is a medical definition determined by a physician.
 
-Capacity is short-term, at a specific moment in time, while competency is longer-term, for specific durations of time.
+*Competency* is long-term, for a defined duration, while *Capacity* is short-term, at a specific moment.
 
 
 ## Applebaum Criteria for Capacity
@@ -58,7 +58,7 @@ Patients are assumed to lack capacity until a provider performs a formal evaluat
 
 i.e., Patients are "guilty until proven innocent" with respect to capacity.
 
-*Applebaum Criteria* are formally assessed to determine capacity using the *[MacArthur Competence Assessment](https://doi.org/10.1176/ps.48.11.1415)*.
+*[Applebaum Criteria](https://doi.org/10.1056/NEJM198812223192504)* are formally assessed to determine capacity using the *[MacArthur Competence Assessment](https://doi.org/10.1176/ps.48.11.1415)*.
 
 The criteria are in ascending order of difficulty to assess.
 
@@ -114,13 +114,13 @@ This patient lacked capacity because of her psychotic thought process despite a 
 
 #### Religious Exemption to Intact Reasoning
 
-e.g., Jehovah's Witness belong to a community that rejects blood products.
+e.g., Jehovah's Witness belong to a community that rejects blood products. They have capacity to refuse blood infusions, even if it would prevent their death from blood loss during surgery.
 
-A caveat is the person must hold these values at baseline.
+A caveat is the person must hold these values at baseline. 
 
-i.e., They cannot have recently adopted religious values at the time of their procedure.
+i.e., They cannot have adopted religious values at the moment they have their procedure.
 
-e.g., A manic patient that declares they joined the Jehovah's Witness faith that day lacks capacity to reject blood products if their life depended on them.
+e.g., A manic patient that is refusing IV antibiotics for sepsis due to their religious faith that they adopted that day lacks capacity.
 
 ## Timeline for Capacity
 
@@ -128,23 +128,24 @@ If there is an imminent loss of life or limb to the patient, providers may proce
 
 Hospital policy sometimes requires two physicians to sign if a patient lacks capacity for a high risk treatment, but this is not a legal requirement.
 
-## Hierarchy of Medical Decision Maker
+## Illinois Health Care Surrogate Act
 
-Medical decision makers may be legally assigned. 
+The State of Illinois has identified who is a patient's surrogate decision maker in the [Health Care Surrogate Act (755 ILCS 40/1)](https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2111&ChapterID=60)
+    
+> "for patients who lack decisional capacity and have a qualifying condition, medical treatment decisions including whether to forgo life-sustaining treatment on behalf of the patient may be made without court order or judicial involvement in the following order of priority:
 
-* Power of Attorney
-* Medical Conservator (e.g., LPS conservator)
-* Previous Surrogate
-
-Where no legal decision maker has been identified, hospital protocol may assign the *next of kin* in a formal order.
-
-* Spouse
-* Adult Children
-* Parents
-* Siblings
-* Someone who knows the patient (e.g., neighbor, bartender)
+>        (1) the patient's guardian of the person;
+>        (2) the patient's spouse;
+>        (3) any adult son or daughter of the patient;
+>        (4) either parent of the patient;
+>        (5) any adult brother or sister of the patient;
+>        (6) any adult grandchild of the patient;
+>        (7) a close friend of the patient;
+>        (8) the patient's guardian of the estate;
+>        (9) the patient's temporary custodian appointed...
 
 Note, if multiple family members are involved, ask the group to identify one person to make medical decision makers and liaison communication between the group and the providers.
+
 
 ## Substituted Judgement
 
@@ -158,6 +159,7 @@ The surrogate decision maker is not legally required to use substituted judgemen
 
 * Maintain continuous conversation with the decision maker
 * Consider calling an *ethics committee* 
+
 
 ### e.g., Jehovah's Witness Wife of Surgery Patient
 
