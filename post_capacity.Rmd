@@ -14,6 +14,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Introduction
 
+Capacity is a functional assessment regarding a particular decision at a particular point in time. 
+
 *Capacity* is determined: 
 
 * At a specific time 
@@ -24,7 +26,7 @@ There is a presumption of capacity by default. Providers only need to document c
 
 ### Pillars of Medical Ethics
 
-Throughout this discussion, it is helpful to recall the [Belmont Report](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/read-the-belmont-report/index.html):
+Throughout this discussion, it is helpful to recall the 4 pillars of medical ethics outlined in the [Belmont Report](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/read-the-belmont-report/index.html):
 
 1. Respect for persons (Autonomy)
 2. Beneficence
@@ -65,6 +67,11 @@ Medical providers can often determine this aspect of capacity.
 
 Providers often focus on the patient's understanding, but this is not sufficient to determine capacity.
 
+Helpful questions:
+
+* "Why are you in the hospital?"
+* "What did your doctors tell you was going on?"
+
 ### 3. Appreciate Ramifications of Procedure
 
 The patient with capacity appreciates that risks are genuine and that they apply to themselves.
@@ -74,6 +81,11 @@ e.g., A patient lacking capacity might say, "Sure the operation is risky, but *I
 A patient would also lack capacity if they minimize the risk that a treatment may have on their wellbeing.
 
 e.g., A patient lacking capacity might state, "Losing a limb would be fine. I would live the same life I have now."
+
+Helpful questions:
+
+* "What are some of the things that could happen if you *didn't* have [this intervention]?"
+* "What did your doctors tell you could happen? Do you believe that?"
 
 ### 4. Reasoning Intact
 
@@ -86,6 +98,11 @@ Is the patient making a unique decision that someone from their community would 
 e.g., A patient with throat cancer was refusing a biopsy and chemotherapy, but accepted radiation because they believed this modality was a magical cure-all.
 
 If something doesn't feel right, dig further.
+
+Helpful questions:
+
+* "What makes you prefer [intervention A] over [intervention B]?"
+* "What led you to make this decision?"
 
 #### e.g., Kidney Donation due to Psychotic Reasoning
 
