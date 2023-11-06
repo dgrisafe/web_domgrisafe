@@ -26,7 +26,7 @@ knitr::opts_chunk$set(echo = TRUE)
 | Haloperidol IV  | Haldol<sup>®</sup>     | Intravenous         | 2–5 mg        | Immediate       | 4 hr                       | 10 mg / 24 hr  | Administering haloperidol intravenously increases risk of QT prolongation.<br><br>Avoid if possible, especially in patients w/ borderline QT or taking other medication that can prolong QT.<br><br>If given IV, limit dose and provide cardiac monitoring. |
 
 <p style="clear:both;"><hr></p>
-<img src="images/hal-gatewood-neuron.png" width=100% align=right></img>
+<img src="images/agitation_psychopharmacology.png" width=100% align=right></img>
 <p style="clear:both;"><hr></p>
 
 ## References
