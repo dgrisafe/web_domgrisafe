@@ -128,24 +128,33 @@ If there is an imminent loss of life or limb to the patient, providers may proce
 
 Hospital policy sometimes requires two physicians to sign if a patient lacks capacity for a high risk treatment, but this is not a legal requirement.
 
-## Illinois Health Care Surrogate Act
+## Surrogate Decision Maker: Illinois Health Care Surrogate Act
 
-The State of Illinois has identified who is a patient's surrogate decision maker in the [Health Care Surrogate Act (755 ILCS 40/1)](https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2111&ChapterID=60)
+The State of Illinois has clarified a patient's surrogate decision maker in the [Health Care Surrogate Act (755 ILCS 40/1)](https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2111&ChapterID=60).
     
 > "for patients who lack decisional capacity and have a qualifying condition, medical treatment decisions including whether to forgo life-sustaining treatment on behalf of the patient may be made without court order or judicial involvement in the following order of priority:
-
->        (1) the patient's guardian of the person;
->        (2) the patient's spouse;
->        (3) any adult son or daughter of the patient;
->        (4) either parent of the patient;
->        (5) any adult brother or sister of the patient;
->        (6) any adult grandchild of the patient;
->        (7) a close friend of the patient;
->        (8) the patient's guardian of the estate;
->        (9) the patient's temporary custodian appointed...
+>
+>1. the patient's guardian of the person;
+>2. the patient's spouse;
+>3. any adult son or daughter of the patient;
+>4. either parent of the patient;
+>5. any adult brother or sister of the patient;
+>6. any adult grandchild of the patient;
+>7. a close friend of the patient;
+>8. the patient's guardian of the estate;
+>9. the patient's temporary custodian appointed..."
 
 Note, if multiple family members are involved, ask the group to identify one person to make medical decision makers and liaison communication between the group and the providers.
 
+### Exceptions to Surrogate Decision Maker
+
+#### Futility of Treatment
+
+e.g., Surrogate decision maker says to do CPR, but the patient is already dead
+
+#### Sterilization
+
+Parents cannot force their children to be sterilized against their will.
 
 ## Substituted Judgement
 
@@ -189,19 +198,6 @@ This option is less ideal for making treatment decisions on behalf of the patien
 
 Therefore, it is reserved for cases where patient's lack a medical decision maker.
 
-## Exceptions to Surrogate Decision Maker
-
-### Futility of Treatment
-
-e.g., Surrogate decision maker says to do CPR, but the patient is already dead
-
-### Sterilization
-
-Parents cannot force their children to be sterilized against their will.
-
-### Involuntary Hospitalization
-
-Patients must be placed on a hold and found to lack competency by a judge to be involuntary hospitalized.
 
 ## Threshold for Capacity
 
@@ -215,10 +211,10 @@ e.g., IV Fluids for Rhabdomyolysis
 
 ### Punnet Square of Risk and Benefits
 
-|              | High Risk                                                      | Low Risk                                                       |
-|--------------|----------------------------------------------------------------|----------------------------------------------------------------|
-| High Benefit | Clinical Judgement                                             | IV Fluids for Rhabdomyolysis |
-| Low Benefit  | Palliative Chemotherapy | Clinical Judgement                                             |
+|   | **High Risk** | **Low Risk** |
+|--:|:---------:|:--------:|
+|  **High Benefit** | Clinical Judgement | IV Fluids for Rhabdomyolysis |
+|  **Low Benefit**  | Palliative Chemotherapy | Clinical Judgement |
 
 ## After Capacity is Determined
 
@@ -228,7 +224,7 @@ What's next after evaluating whether a patient has or lacks capacity?
 
 Do not provide treatments to patients that are found to have capacity and are refusing.
 
-Document using the MacArthur Criteria.[@appelbaum_1995_macarthur]
+Document using the [MacArthur Criteria](https://doi.org/10.1176/ps.48.11.1415).
 
 ### Patients Lacking Capacity
 
@@ -289,9 +285,9 @@ The surgeons opted not to reattach the finger due to logistical challenges despi
 
 ### California Laws Related to Capacity
 
-In California, patients cannot be force to receive electroconvulsive therapy against their will.
+In California, patients cannot be forced to receive electroconvulsive therapy against their will.
 
-In California, healthcare providers must obtain a *Riese Petition* to administer psychiatric medcations against the will of a patient lacking capacity.
+In California, healthcare providers must obtain a *[Riese Petition](http://pubmed.ncbi.nlm.nih.gov/11648567/)* to administer psychiatric medcations against the will of a patient lacking capacity.
 
 #### Competency in California
 
@@ -317,11 +313,13 @@ Ask the conservator to make all medical decisions for the patient.
 
 Conservatorships may be for specific indications.
 
+
 ## References
 
 * Appelbaum, P. S. et al. <a href="https://doi.org/10.1056/NEJM198812223192504">Assessing Patients’ Capacities to Consent to Treatment</a> N Engl J Med 319, 1635–1638 (1988)
 * Grisso, T. et al. <a href="https://doi.org/10.1176/ps.48.11.1415">The MacCAT-T: A Clinical Tool to Assess Patients’ Capacities to Make Treatment Decisions</a> Psychiatr Serv 48, 1415–1419 (1997)
 * Grisso, T. et al. Assessing Competence to Consent to Treatment: A Guide for Physicians and Other Health Professionals (Oxford University Press, 1998)
+* <a href="https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2111&ChapterID=60">Health Care Surrogate Act.</a> Illinois Compiled Statutes 87–749
 * Chow, G. V. et al. <a href="https://doi.org/10.1378/chest.09-1133">CURVES: A Mnemonic for Determining Medical Decision-Making Capacity and Providing Emergency Treatment in the Acute Setting</a> Chest 137, 421–427 (2010)
 * <a href="http://pubmed.ncbi.nlm.nih.gov/11648567/">Riese v. St. Mary’s Hospital and Medical Center</a> West’s California reporter 243, (1988)
 * Beard, O. <a href="https://unsplash.com/photos/citiscan-result-hand-ok-DK8jXx1B-1c">As It Turns out, Everything Was Okay.</a> (2018)
