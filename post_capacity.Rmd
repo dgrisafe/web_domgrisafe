@@ -44,17 +44,21 @@ e.g., Neurology is responsible for determining capacity if they want to offer a 
 
 *Capacity* is a medical definition determined by a physician.
 
-Capacity is short-term, at a specific moment in time.
-
+Capacity is short-term, at a specific moment in time, while competency is longer-term, for specific durations of time.
 
 
 ## Applebaum Criteria for Capacity
+
+1. Communicate a *Clear and Consistent* Choice
+2. Understand Relevant Information
+3. Appreciate Ramifications of Procedure
+4. Reasoning Intact
 
 Patients are assumed to lack capacity until a provider performs a formal evaluation.
 
 i.e., Patients are "guilty until proven innocent" with respect to capacity.
 
-*Applebaum Criteria* are formally assessed to determine capacity using the *MacArthur Competence Assessment*.
+*Applebaum Criteria* are formally assessed to determine capacity using the *[MacArthur Competence Assessment](https://doi.org/10.1176/ps.48.11.1415)*.
 
 The criteria are in ascending order of difficulty to assess.
 
@@ -314,6 +318,7 @@ Conservatorships may be for specific indications.
 ## References
 
 * Appelbaum, P. S. et al. <a href="https://doi.org/10.1056/NEJM198812223192504">Assessing Patients’ Capacities to Consent to Treatment</a> N Engl J Med 319, 1635–1638 (1988)
+* Grisso, T. et al. <a href="https://doi.org/10.1176/ps.48.11.1415">The MacCAT-T: A Clinical Tool to Assess Patients’ Capacities to Make Treatment Decisions</a> Psychiatr Serv 48, 1415–1419 (1997)
 * Grisso, T. et al. Assessing Competence to Consent to Treatment: A Guide for Physicians and Other Health Professionals (Oxford University Press, 1998)
 * Chow, G. V. et al. <a href="https://doi.org/10.1378/chest.09-1133">CURVES: A Mnemonic for Determining Medical Decision-Making Capacity and Providing Emergency Treatment in the Acute Setting</a> Chest 137, 421–427 (2010)
 * <a href="http://pubmed.ncbi.nlm.nih.gov/11648567/">Riese v. St. Mary’s Hospital and Medical Center</a> West’s California reporter 243, (1988)
