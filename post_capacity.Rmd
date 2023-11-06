@@ -245,7 +245,7 @@ A patient may have capacity to accept a treatment at a given snapshot in time, w
 
 e.g., IV Fluids for Rhabdomyolysis
 
-### Punnet Square of Risk and Benefits
+### Punnet Square of Risks and Benefits
 
 |   | **High Risk** | **Low Risk** |
 |--:|:---------:|:--------:|
