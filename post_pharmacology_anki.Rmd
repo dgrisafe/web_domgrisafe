@@ -55,4 +55,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Breast milk
 
+<p style="clear:both;"><hr></p>
+<img src="images/danilo-alvesd-pill.png" width=100% align=right></img>
+<p style="clear:both;"><hr></p>
+
 ### Resources

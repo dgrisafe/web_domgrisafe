@@ -25,6 +25,10 @@ knitr::opts_chunk$set(echo = TRUE)
 | Haloperidol IM  | Haldol<sup>®</sup>     | Intramuscular       | 5 mg          | 30–60 min       | 15 min                     | 20 mg / 24 hr  | Likely to cause higher incidence of extrapyramidal side effects than other recommended drugs                                                                                                                                                                |
 | Haloperidol IV  | Haldol<sup>®</sup>     | Intravenous         | 2–5 mg        | Immediate       | 4 hr                       | 10 mg / 24 hr  | Administering haloperidol intravenously increases risk of QT prolongation.<br><br>Avoid if possible, especially in patients w/ borderline QT or taking other medication that can prolong QT.<br><br>If given IV, limit dose and provide cardiac monitoring. |
 
+<p style="clear:both;"><hr></p>
+<img src="images/hal-gatewood-neuron.png" width=100% align=right></img>
+<p style="clear:both;"><hr></p>
+
 ## References
 
 * Wilson, M. P. <a href="https://doi.org/10.5811/westjem.2011.9.6866">The Psychopharmacology of Agitation: Consensus Statement of the American Association for Emergency Psychiatry Project BETA Psychopharmacology Workgroup</a> (2012)

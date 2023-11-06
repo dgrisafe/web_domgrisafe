@@ -24,6 +24,10 @@ knitr::opts_chunk$set(echo = TRUE)
 | Seven | Adulthood       | 40–65    | Generativity | Stagnation/Self-Absorption | Care       | Rejectivity         | engagement with the next generation through parenting, coaching, or teaching                                                                   |
 | Eight | Old Age         | 65–death | Integrity    | Despair                    | Wisdom     | Disdain             | contemplation and acknowledgment of personal life accomplishments                                                                              |
 
+<p style="clear:both;"><hr></p>
+<img src="images/rod_long_unsplash.png" width=100% align=right></img>
+<p style="clear:both;"><hr></p>
+
 ## References
 
 * Erikson, E. H. <a href="https://www.google.com/books/edition/Childhood_and_Society/L-UrEpS3UbEC">Childhood and Society</a> (W. W. Norton Company, 1993)

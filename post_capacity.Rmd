@@ -349,6 +349,9 @@ Ask the conservator to make all medical decisions for the patient.
 
 Conservatorships may be for specific indications.
 
+<p style="clear:both;"><hr></p>
+<img src="images/capacity.png" width=100% align=right></img>
+<p style="clear:both;"><hr></p>
 
 ## References
 
