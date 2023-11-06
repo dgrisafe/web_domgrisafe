@@ -20,31 +20,16 @@ knitr::opts_chunk$set(echo = TRUE)
 * For a given procedure or treatment
 * By the provider offering the intervention
 
-*Informed Consent* is distinct from Capacity.
+There is a presumption of capacity by default. Providers only need to document capacity following a formal capacity evaluation, or if the patient has regained capacity following a period of lacking it.
 
-Specific *Pathologies* do not automatically determine capacity; myriad etiologies can exclude a patient from having capacity.
+### Pillars of Medical Ethics
 
-## Capacity is *Not* the Absence of Mental Illness
+Throughout this discussion, it is helpful to recall the [Belmont Report](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/read-the-belmont-report/index.html):
 
-*Psychiatric Illness* does not mean a patient lacks capacity. 
-
-Capacity must be formally evaluated for each procedure at the time it is offered.
-
-e.g., Capacity is difficult to determine for a depressed patient with a terminal illness pursing comfort care as a passive way to end their life.
-
-## Capacity Determined by Psychiatry is *Not* a Legal Protection
-
-The psychiatry service may be consulted for a second opinion of capacity, but this does not protect the primary team from liability; psychiatry is *not* responsible for capacity. 
-
-e.g., Neurology is responsible for determining capacity if they want to offer a lumbar puncture.
-
-## Competency is *Not* Capacity
-
-*Competency* is a legal definition determined by a judge or lawyer. 
-
-*Capacity* is a medical definition determined by a physician.
-
-*Competency* is long-term, for a defined duration, while *Capacity* is short-term, at a specific moment.
+1. Respect for persons (Autonomy)
+2. Beneficence
+3. Nonmaleficence
+4. Justice
 
 
 ## Applebaum Criteria for Capacity
@@ -121,6 +106,40 @@ A caveat is the person must hold these values at baseline.
 i.e., They cannot have adopted religious values at the moment they have their procedure.
 
 e.g., A manic patient that is refusing IV antibiotics for sepsis due to their religious faith that they adopted that day lacks capacity.
+
+
+## Capacity is *Not*...
+
+Specific *Pathologies* do not automatically determine capacity; myriad etiologies can exclude a patient from having capacity. 
+
+An capacity evaluation is required for each patient, for each treatment, at each moment it is offered.
+
+### Capacity is *Not* Informed Consent
+
+Completing informed consent does not satisfy an evaluation of capacity.
+
+### Capacity is *Not* the Absence of Mental Illness
+
+*Psychiatric Illness* does not mean a patient lacks capacity. 
+
+Capacity must be formally evaluated for each procedure at the time it is offered.
+
+e.g., Capacity is difficult to determine for a depressed patient with a terminal illness pursing comfort care as a passive way to end their life.
+
+### Capacity Determined by Psychiatry is *Not* a Legal Protection
+
+The psychiatry service may be consulted for a second opinion of capacity, but this does not protect the primary team from liability; psychiatry is *not* responsible for capacity. 
+
+e.g., Neurology is responsible for determining capacity if they want to offer a lumbar puncture.
+
+### Capacity is *Not* Competency
+
+*Capacity* is a medical definition determined by a physician.
+
+*Competency* is a legal definition determined by a judge or lawyer. 
+
+*Capacity* is short-term, at a specific moment, while *Competency* is long-term, for a defined duration.
+
 
 ## Timeline for Capacity
 
@@ -316,6 +335,7 @@ Conservatorships may be for specific indications.
 
 ## References
 
+* <a href="https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/read-the-belmont-report/index.html">The Belmont Report: Ethical Principles and Guidelines for the Protection of Human Subjects of Research</a> The National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research (1979)
 * Appelbaum, P. S. et al. <a href="https://doi.org/10.1056/NEJM198812223192504">Assessing Patients’ Capacities to Consent to Treatment</a> N Engl J Med 319, 1635–1638 (1988)
 * Grisso, T. et al. <a href="https://doi.org/10.1176/ps.48.11.1415">The MacCAT-T: A Clinical Tool to Assess Patients’ Capacities to Make Treatment Decisions</a> Psychiatr Serv 48, 1415–1419 (1997)
 * Grisso, T. et al. Assessing Competence to Consent to Treatment: A Guide for Physicians and Other Health Professionals (Oxford University Press, 1998)
