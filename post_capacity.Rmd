@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 <!-- **[Download Flashcards](flashcards/capacity.apkg)** for Anki -->
-
+  
 ## Introduction
 
 Capacity is a functional assessment regarding a particular decision at a particular point in time. 
@@ -23,7 +23,7 @@ Capacity is a functional assessment regarding a particular decision at a particu
 * By the provider offering the intervention
 
 There is a presumption of capacity by default. Providers only need to document capacity following a formal capacity evaluation, or if the patient has regained capacity following a period of lacking it.
-
+  
 ### Pillars of Medical Ethics
 
 Throughout this discussion, it is helpful to recall the 4 pillars of medical ethics outlined in the [Belmont Report](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/read-the-belmont-report/index.html):
@@ -36,6 +36,8 @@ Throughout this discussion, it is helpful to recall the 4 pillars of medical eth
 
 ## Applebaum Criteria for Capacity
 
+*[Applebaum Criteria](https://doi.org/10.1056/NEJM198812223192504)* are formally assessed to determine capacity using the *[MacArthur Competence Assessment](https://doi.org/10.1176/ps.48.11.1415)*.
+
 1. Communicate a *Clear and Consistent* Choice
 2. Understand Relevant Information
 3. Appreciate Ramifications of Procedure
@@ -44,8 +46,6 @@ Throughout this discussion, it is helpful to recall the 4 pillars of medical eth
 Patients are assumed to lack capacity until a provider performs a formal evaluation.
 
 i.e., Patients are "guilty until proven innocent" with respect to capacity.
-
-*[Applebaum Criteria](https://doi.org/10.1056/NEJM198812223192504)* are formally assessed to determine capacity using the *[MacArthur Competence Assessment](https://doi.org/10.1176/ps.48.11.1415)*.
 
 The criteria are in ascending order of difficulty to assess.
 
