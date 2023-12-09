@@ -48,14 +48,14 @@ df_agitate_pretty <- df_agitate %>%
       t_hr_max_ll != t_hr_max_ul ~ paste0(t_hr_max_ll, " – ", t_hr_max_ul)
       )
     # only include pretty variables
-    ) %>% select(generic, brand, dose_mg_0, t_hr_max, t_hr_rep, dose_mg_max_day)
+    ) %>% select(generic, brand, dose_mg_0, dose_mg_max_day, t_hr_max, t_hr_rep)
 
 # add footnote symbols to row names
 df_agitate_pretty$generic[c(3,10,11)] <- paste0(df_agitate_pretty$generic[c(3,10,11)],footnote_marker_symbol(1))
 df_agitate_pretty$generic[c(11)] <- paste0(df_agitate_pretty$generic[c(11)],footnote_marker_symbol(2))
 
 # name variables for printing
-names(df_agitate_pretty) = c("Generic (Route)", "Brand", "Initial Dose (mg)", "Time to Max Concentration (min)", "Time Before Repeat Administration (min)", "Max Total Daily Dose (mg)")
+names(df_agitate_pretty) = c("Generic (Route)", "Brand", "Initial Dose (mg)", "Max Total Daily Dose (mg)", "Time to Max Concentration (min)", "Time Before Repeat Administration (min)")
 
 # print html table
 df_agitate_pretty %>% kbl(escape = F, align=c(rep('l', 2), rep('c', 4))) %>% kable_styling() %>% 
