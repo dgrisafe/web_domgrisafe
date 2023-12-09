@@ -7,23 +7,81 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(kableExtra)
 ```
 
 **[Download Flashcards](flashcards/agitation_psychopharmacology.apkg)** for Anki
 
-## Summary
+## Figure
 
-| Generic         | Brand                  | Route               | Initial Dose | T<sub>max</sub> | Repeat                     | Maximum Daily Dose | Note                                                                                                                                                                                                                                                        |
-| --------------- | ---------------------- | ------------------- | ------------- | --------------- | -------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Risperidone PO  | Risperdal<sup>®</sup>  | Oral                | 2 mg          | 1 hr            | 2 hr                       | 6 mg / 24 hr   |                                                                                                                                                                                                                                                             |
-| Olanzapine PO   | Zyprexa<sup>®</sup>    | Oral                | 5–10 mg       | 6 hr            | 2 hr                       | 20 mg / 24 hr  |                                                                                                                                                                                                                                                             |
-| Haloperidol PO  | Haldol<sup>®</sup>     | Oral                | 5 mg          | 30–60 min       | 15 min                     | 20 mg / 24 hr  | Likely to cause higher incidence of extrapyramidal side effects than other recommended drugs                                                                                                                                                                |
-| Lorazepam       | Ativan<sup>®</sup>     | Oral, Intramuscular | 2 mg          | 20–30 min       | 2 hr                       | 12 mg / 24 hr  |                                                                                                                                                                                                                                                             |
-| Ziprasidone IM  | Geodon<sup>®</sup>     | Intramuscular       | 10–20 mg      | 15 min          | 10 mg q2 hr<br><br>20 mg q4 hr | 40 mg / 24 hr  |                                                                                                                                                                                                                                                             |
-| Olanzapine IM | Zyprexa<sup>®</sup> | Intramuscular       | 5–10 mg       | 15–45 min       | 20 min                     | 30 mg / 24 hr  |                                                                                                                                                                                                                                                             |
-| Aripiprazole IM | Abilify<sup>®</sup>    | Intramuscular       | 9.75 mg       | 1 hr            | 2 hr                       | 30 mg / 24 hr  |                                                                                                                                                                                                                                                             |
-| Haloperidol IM  | Haldol<sup>®</sup>     | Intramuscular       | 5 mg          | 30–60 min       | 15 min                     | 20 mg / 24 hr  | Likely to cause higher incidence of extrapyramidal side effects than other recommended drugs                                                                                                                                                                |
-| Haloperidol IV  | Haldol<sup>®</sup>     | Intravenous         | 2–5 mg        | Immediate       | 4 hr                       | 10 mg / 24 hr  | Administering haloperidol intravenously increases risk of QT prolongation.<br><br>Avoid if possible, especially in patients w/ borderline QT or taking other medication that can prolong QT.<br><br>If given IV, limit dose and provide cardiac monitoring. |
+```{r, echo = FALSE}
+df_agitate = data.frame(
+  generic = c("Risperidone", "Olanzapine", "Haloperidol", "Lorazepam", "Lorazepam", "Ziprasidone", "Ziprasidone", "Olanzapine", "Aripiprazole", "Haloperidol", "Haloperidol"),
+  route = c("PO", "PO", "PO", "PO", "IM", "IM", "IM", "IM", "IM", "IM", "IV"),
+  brand = paste0(c("Risperdal", "Zyprexa", "Haldol", "Ativan", "Ativan", "Geodon", "Geodon", "Zyprexa", "Abilify", "Haldol", "Haldol"),"<sup>®</sup>"),
+  dose_mg_0_ll = c(2, 5, 5, 2, 2, 10, 20, 5, 9.75, 5, 2),
+  dose_mg_0_ul = c(2, 10, 5, 2, 2, 10, 20, 10, 9.75, 5, 5),
+  t_hr_max_ll = c(1, 6, 0.5, 1/3, 1/3, 0.25, 0.25, 0.25, 1, 0.5, 0),
+  t_hr_max_ul = c(1, 6, 1, 0.5, 0.5, 0.25, 0.25, 0.75, 1, 1, 0),
+  t_hr_rep = c(2, 2, 0.25, 2, 2, 2, 4, 1/3, 2, .25, 4),
+  dose_mg_max_day = c(6, 20, 20, 12, 12, 40, 40, 30, 30, 20, 10)
+)
+
+# format table for printing
+df_agitate_pretty <- df_agitate %>% 
+  mutate(
+    # make time units as minutes
+    across(starts_with("t_hr"), ~ .x*60),
+    # limit digits to 2 decimals
+    across(where(is.numeric), round, 2),
+    # make single name of generic name and drug route
+    generic = paste0(generic, " (", route, ")"),
+    # if numbers have ranges, show them as ranges, otherwise just once
+    dose_mg_0 = case_when(
+      dose_mg_0_ll == dose_mg_0_ul ~ as.character(dose_mg_0_ll),
+      dose_mg_0_ll != dose_mg_0_ul ~ paste0(dose_mg_0_ll, " – ", dose_mg_0_ul)
+      ),
+    t_hr_max = case_when(
+      t_hr_max_ll == t_hr_max_ul ~ as.character(t_hr_max_ll),
+      t_hr_max_ll != t_hr_max_ul ~ paste0(t_hr_max_ll, " – ", t_hr_max_ul)
+      )
+    # only include pretty variables
+    ) %>% select(generic, brand, dose_mg_0, t_hr_max, t_hr_rep, dose_mg_max_day)
+```
+
+
+## Table
+
+```{r, echo=F}
+# add footnote symbols to row names
+df_agitate_pretty$generic[c(3,10,11)] <- paste0(df_agitate_pretty$generic[c(3,10,11)],footnote_marker_symbol(1))
+df_agitate_pretty$generic[c(11)] <- paste0(df_agitate_pretty$generic[c(11)],footnote_marker_symbol(2))
+
+# name variables for printing
+names(df_agitate_pretty) = c("Generic (Route)", "Brand", "Initial Dose (mg)", "Time to Max Concentration (min)", "Time until Repeat (min)", "Max Total Daily Dose (mg)")
+
+# print html table
+df_agitate_pretty %>% kbl(escape = F) %>% kable_styling() %>% 
+  footnote(symbol = c(
+    "Likely to cause higher incidence of extrapyramidal side effects than other recommended drugs",
+    "Administering haloperidol intravenously increases risk of QT prolongation. Avoid if possible, especially in patients w/ borderline QT or taking other medication that can prolong QT. If given IV, limit dose and provide cardiac monitoring."
+    ))
+```
+
+
+<!-- | Generic         | Brand                  | Route               | Initial Dose | T<sub>max</sub> | Repeat                     | Maximum Daily Dose | Note                                                                                                                                                                                                                                                        | -->
+<!-- | --------------- | ---------------------- | ------------------- | ------------- | --------------- | -------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -->
+<!-- | Risperidone PO  | Risperdal<sup>®</sup>  | Oral                | 2 mg          | 1 hr            | 2 hr                       | 6 mg / 24 hr   |                                                                                                                                                                                                                                                             | -->
+<!-- | Olanzapine PO   | Zyprexa<sup>®</sup>    | Oral                | 5–10 mg       | 6 hr            | 2 hr                       | 20 mg / 24 hr  |                                                                                                                                                                                                                                                             | -->
+<!-- | Haloperidol PO  | Haldol<sup>®</sup>     | Oral                | 5 mg          | 30–60 min       | 15 min                     | 20 mg / 24 hr  | Likely to cause higher incidence of extrapyramidal side effects than other recommended drugs                                                                                                                                                                | -->
+<!-- | Lorazepam       | Ativan<sup>®</sup>     | Oral, Intramuscular | 2 mg          | 20–30 min       | 2 hr                       | 12 mg / 24 hr  |                                                                                                                                                                                                                                                             | -->
+<!-- | Ziprasidone IM  | Geodon<sup>®</sup>     | Intramuscular       | 10–20 mg      | 15 min          | 10 mg q2 hr<br><br>20 mg q4 hr | 40 mg / 24 hr  |                                                                                                                                                                                                                                                             | -->
+<!-- | Olanzapine IM | Zyprexa<sup>®</sup> | Intramuscular       | 5–10 mg       | 15–45 min       | 20 min                     | 30 mg / 24 hr  |                                                                                                                                                                                                                                                             | -->
+<!-- | Aripiprazole IM | Abilify<sup>®</sup>    | Intramuscular       | 9.75 mg       | 1 hr            | 2 hr                       | 30 mg / 24 hr  |                                                                                                                                                                                                                                                             | -->
+<!-- | Haloperidol IM  | Haldol<sup>®</sup>     | Intramuscular       | 5 mg          | 30–60 min       | 15 min                     | 20 mg / 24 hr  | Likely to cause higher incidence of extrapyramidal side effects than other recommended drugs                                                                                                                                                                | -->
+<!-- | Haloperidol IV  | Haldol<sup>®</sup>     | Intravenous         | 2–5 mg        | Immediate       | 4 hr                       | 10 mg / 24 hr  | Administering haloperidol intravenously increases risk of QT prolongation.<br><br>Avoid if possible, especially in patients w/ borderline QT or taking other medication that can prolong QT.<br><br>If given IV, limit dose and provide cardiac monitoring. | -->
+
 
 <p style="clear:both;"><hr></p>
 <img src="images/agitation_psychopharmacology.png" width=100% align=right></img>
