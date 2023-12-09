@@ -6,16 +6,15 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
 library(kableExtra)
 ```
 
 **[Download Flashcards](flashcards/agitation_psychopharmacology.apkg)** for Anki
 
-## Figure
-
 ```{r, echo = FALSE}
+# create data table of agitation information
 df_agitate = data.frame(
   generic = c("Risperidone", "Olanzapine", "Haloperidol", "Lorazepam", "Lorazepam", "Ziprasidone", "Ziprasidone", "Olanzapine", "Aripiprazole", "Haloperidol", "Haloperidol"),
   route = c("PO", "PO", "PO", "PO", "IM", "IM", "IM", "IM", "IM", "IM", "IV"),
@@ -27,7 +26,9 @@ df_agitate = data.frame(
   t_hr_rep = c(2, 2, 0.25, 2, 2, 2, 4, 1/3, 2, .25, 4),
   dose_mg_max_day = c(6, 20, 20, 12, 12, 40, 40, 30, 30, 20, 10)
 )
+```
 
+```{r, echo=F}
 # format table for printing
 df_agitate_pretty <- df_agitate %>% 
   mutate(
@@ -48,25 +49,116 @@ df_agitate_pretty <- df_agitate %>%
       )
     # only include pretty variables
     ) %>% select(generic, brand, dose_mg_0, t_hr_max, t_hr_rep, dose_mg_max_day)
-```
 
-
-## Table
-
-```{r, echo=F}
 # add footnote symbols to row names
 df_agitate_pretty$generic[c(3,10,11)] <- paste0(df_agitate_pretty$generic[c(3,10,11)],footnote_marker_symbol(1))
 df_agitate_pretty$generic[c(11)] <- paste0(df_agitate_pretty$generic[c(11)],footnote_marker_symbol(2))
 
 # name variables for printing
-names(df_agitate_pretty) = c("Generic (Route)", "Brand", "Initial Dose (mg)", "Time to Max Concentration (min)", "Time until Repeat (min)", "Max Total Daily Dose (mg)")
+names(df_agitate_pretty) = c("Generic (Route)", "Brand", "Initial Dose (mg)", "Time to Max Concentration (min)", "Time Before Repeat Administration (min)", "Max Total Daily Dose (mg)")
 
 # print html table
-df_agitate_pretty %>% kbl(escape = F) %>% kable_styling() %>% 
+df_agitate_pretty %>% kbl(escape = F, align=c(rep('l', 2), rep('c', 4))) %>% kable_styling() %>% 
   footnote(symbol = c(
     "Likely to cause higher incidence of extrapyramidal side effects than other recommended drugs",
     "Administering haloperidol intravenously increases risk of QT prolongation. Avoid if possible, especially in patients w/ borderline QT or taking other medication that can prolong QT. If given IV, limit dose and provide cardiac monitoring."
     ))
+```
+
+```{r}
+# format data for plotting
+df_agitate_plot <- df_agitate %>% 
+  mutate(
+    generic = factor(generic, c("Haloperidol", "Lorazepam", "Olanzapine", "Ziprasidone", "Risperidone", "Aripiprazole")),
+    route = factor(route, c("PO", "IM", "IV"), c("Oral (PO)", "Intramuscular (IM)", "Intravenous (IV)"))
+  )
+
+# custom theme
+dg_theme <- cowplot::theme_cowplot() + theme(
+  panel.border=element_rect(colour = "grey", fill=NA, linewidth=0.5, linetype = 3),
+  strip.background=element_blank(),
+  axis.title.y=element_blank(),
+  axis.text.x=element_text(angle = 40, vjust=1.2, hjust=1.1, size=9),
+  panel.spacing=unit(1,"lines")
+  )
+
+# axis labels
+xlab_dose <- xlab(label = "Dose (mg)")
+xlab_time <- xlab(label = "Time (hours)")
+
+# base plot
+gg_agitate_plot <- df_agitate_plot %>% 
+  ggplot(aes(y=generic, yend=generic)) +
+  scale_y_discrete(limits=rev) +
+  scale_x_continuous(limits = c(0, NA), expand = c(0, NA), labels = ~ sprintf("%.1f", .x)) +
+  # facet_grid(cols = vars(route)) +
+  facet_grid(. ~ route, scales="free") +
+  dg_theme
+
+# size of dots
+size_dots <- 2
+```
+
+## Dosing {.tabset}
+
+### Composite
+
+```{r}
+gg_agitate_plot +
+  # initial dose
+  geom_segment(aes(x=dose_mg_0_ll, xend = dose_mg_0_ul)) +
+  geom_point(aes(x = dose_mg_0_ll), size = size_dots, shape=3) +
+  geom_point(aes(x = dose_mg_0_ul), size = size_dots, shape=3) +
+  # max daily dose
+  geom_point(aes(x = dose_mg_max_day), size=size_dots, shape=1) +
+  xlab_dose
+```
+
+### + Initial Dose
+
+```{r}
+gg_agitate_plot +
+  geom_segment(aes(x=dose_mg_0_ll, xend = dose_mg_0_ul)) +
+  geom_point(aes(x = dose_mg_0_ll), size = size_dots, shape=3) +
+  geom_point(aes(x = dose_mg_0_ul), size = size_dots, shape=3) +
+  xlab_dose
+```
+
+### ○ Max Total Daily Dose
+
+```{r}
+gg_agitate_plot + geom_point(aes(x = dose_mg_max_day), size=size_dots, shape=1) + xlab_dose
+```
+
+## Timing {.tabset}
+
+### Composite
+
+```{r}
+gg_agitate_plot +
+  # time to max concentration
+  geom_segment(aes(x=t_hr_max_ll, xend = t_hr_max_ul)) +
+  geom_point(aes(x = t_hr_max_ll), size = size_dots, shape=3) +
+  geom_point(aes(x = t_hr_max_ul), size = size_dots, shape=3) +
+  # time before repeat administration
+  geom_point(aes(x = t_hr_rep), size = size_dots, shape=1) +
+  xlab_time
+```
+
+### + Time to Max Concentration
+
+```{r}
+gg_agitate_plot +
+  geom_segment(aes(x=t_hr_max_ll, xend = t_hr_max_ul)) +
+  geom_point(aes(x = t_hr_max_ll), size = size_dots, shape=3) +
+  geom_point(aes(x = t_hr_max_ul), size = size_dots, shape=3) +
+  xlab_time
+```
+
+### ○ Time Before Repeat Administration
+
+```{r}
+gg_agitate_plot + geom_point(aes(x = t_hr_rep), size = size_dots, shape=1) + xlab_time
 ```
 
 
