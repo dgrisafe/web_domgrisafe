@@ -177,7 +177,7 @@ gg_agitate_plot + geom_point(aes(x = t_hr_rep), size = size_dots, shape=1) + xla
 
 
 <p style="clear:both;"><hr></p>
-<img src="images/agitation_psychopharmacology.png" width=100% align=right></img>
+<img src="images/agitation_psychopharmacology.png" width=80% align=middle></img>
 <p style="clear:both;"><hr></p>
 
 ## References
