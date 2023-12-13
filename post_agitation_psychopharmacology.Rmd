@@ -82,7 +82,8 @@ dg_theme <- cowplot::theme_cowplot() + theme(
   strip.background=element_blank(),
   axis.title.y=element_blank(),
   axis.text.x=element_text(angle = 40, vjust=1.2, hjust=1.1, size=9),
-  panel.spacing=unit(1,"lines")
+  panel.spacing=unit(1,"lines"),
+  plot.caption = element_text(hjust = 0)
   )
 
 # axis labels
@@ -100,6 +101,9 @@ gg_agitate_plot <- df_agitate_plot %>%
 
 # size of dots
 size_dots <- 2
+
+# captions
+
 ```
 
 ## Dosing {.tabset}
@@ -107,6 +111,10 @@ size_dots <- 2
 ### Composite
 
 ```{r}
+# captions
+cap_dose_mg_0 <- "+ initial dose"
+cap_dose_mg_max <- "○ maximum total daily dose"
+
 gg_agitate_plot +
   # initial dose
   geom_segment(aes(x=dose_mg_0_ll, xend = dose_mg_0_ul)) +
@@ -114,7 +122,8 @@ gg_agitate_plot +
   geom_point(aes(x = dose_mg_0_ul), size = size_dots, shape=3) +
   # max daily dose
   geom_point(aes(x = dose_mg_max_day), size=size_dots, shape=1) +
-  xlab_dose
+  xlab_dose +
+  labs(caption = paste(cap_dose_mg_0, cap_dose_mg_max, sep = "     "))
 ```
 
 ### + Initial Dose
@@ -124,13 +133,17 @@ gg_agitate_plot +
   geom_segment(aes(x=dose_mg_0_ll, xend = dose_mg_0_ul)) +
   geom_point(aes(x = dose_mg_0_ll), size = size_dots, shape=3) +
   geom_point(aes(x = dose_mg_0_ul), size = size_dots, shape=3) +
-  xlab_dose
+  xlab_dose +
+  labs(caption = cap_dose_mg_0)
 ```
 
 ### ○ Max Total Daily Dose
 
 ```{r}
-gg_agitate_plot + geom_point(aes(x = dose_mg_max_day), size=size_dots, shape=1) + xlab_dose
+gg_agitate_plot + 
+  geom_point(aes(x = dose_mg_max_day), size=size_dots, shape=1) + 
+  xlab_dose +
+  labs(caption = cap_dose_mg_max)
 ```
 
 ## Timing {.tabset}
@@ -138,6 +151,10 @@ gg_agitate_plot + geom_point(aes(x = dose_mg_max_day), size=size_dots, shape=1) 
 ### Composite
 
 ```{r}
+# captions
+cap_t_hr_max <- "+ time to maximum concentration"
+cap_t_hr_rep <- "○ time before repeat administration"
+
 gg_agitate_plot +
   # time to max concentration
   geom_segment(aes(x=t_hr_max_ll, xend = t_hr_max_ul)) +
@@ -145,7 +162,8 @@ gg_agitate_plot +
   geom_point(aes(x = t_hr_max_ul), size = size_dots, shape=3) +
   # time before repeat administration
   geom_point(aes(x = t_hr_rep), size = size_dots, shape=1) +
-  xlab_time
+  xlab_time +
+  labs(caption = paste(cap_t_hr_max, cap_t_hr_rep, sep = "     "))
 ```
 
 ### + Time to Max Concentration
@@ -155,13 +173,17 @@ gg_agitate_plot +
   geom_segment(aes(x=t_hr_max_ll, xend = t_hr_max_ul)) +
   geom_point(aes(x = t_hr_max_ll), size = size_dots, shape=3) +
   geom_point(aes(x = t_hr_max_ul), size = size_dots, shape=3) +
-  xlab_time
+  xlab_time +
+  labs(caption = cap_t_hr_max)
 ```
 
 ### ○ Time Before Repeat Administration
 
 ```{r}
-gg_agitate_plot + geom_point(aes(x = t_hr_rep), size = size_dots, shape=1) + xlab_time
+gg_agitate_plot + 
+  geom_point(aes(x = t_hr_rep), size = size_dots, shape=1) + 
+  xlab_time +
+  labs(caption = cap_t_hr_rep)
 ```
 
 ##
