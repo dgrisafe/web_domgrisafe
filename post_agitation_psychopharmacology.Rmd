@@ -101,9 +101,6 @@ gg_agitate_plot <- df_agitate_plot %>%
 
 # size of dots
 size_dots <- 2
-
-# captions
-
 ```
 
 ## Dosing {.tabset}
