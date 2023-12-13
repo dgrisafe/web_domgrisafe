@@ -19,5 +19,4 @@ post_image <- function(img_path){
       htmltools::img(src = img_path, width="50%"),
       hr()
   )
-  p(style = "clear:both;")
 }
