@@ -55,7 +55,7 @@ df_agitate_pretty$generic[c(3,10,11)] <- paste0(df_agitate_pretty$generic[c(3,10
 df_agitate_pretty$generic[c(11)] <- paste0(df_agitate_pretty$generic[c(11)],footnote_marker_symbol(2))
 
 # name variables for printing
-names(df_agitate_pretty) = c("Generic", "Brand", "Initial Dose (mg)", "Max Total Daily Dose (mg)", "Time to Max Concentration (min)", "Time Before Repeat Administration (min)")
+names(df_agitate_pretty) = c("Generic (Route)", "Brand", "Initial Dose (mg)", "Max Total Daily Dose (mg)", "Time to Max Concentration (min)", "Time Before Repeat Administration (min)")
 
 # print html table
 df_agitate_pretty %>% kbl(escape = F, align=c(rep('l', 2), rep('c', 4))) %>% kable_styling() %>% 
@@ -93,9 +93,9 @@ xlab_time <- xlab(label = "Time (hours)")
 gg_agitate_plot <- df_agitate_plot %>% 
   ggplot(aes(y=generic, yend=generic)) +
   scale_y_discrete(limits=rev) +
-  scale_x_continuous(limits = c(0, NA), expand = c(0, NA), labels = ~ sprintf("%.1f", .x)) +
-  # facet_grid(cols = vars(route)) +
-  facet_grid(. ~ route, scales="free") +
+  scale_x_continuous(limits = c(0, NA), labels = ~ sprintf("%.1f", .x)) +
+  facet_grid(cols = vars(route)) +
+  # facet_grid(. ~ route, scales="free") +
   dg_theme
 
 # size of dots
