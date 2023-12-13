@@ -12,11 +12,12 @@ thumbnail <- function(title, img, href, class = "col-sm-6", caption = TRUE, widt
 }
 
 # post image, usually in footer of post
-post_image <- function(img_path, class = "col-sm-6"){
+post_image <- function(img_path){
   p(style = "clear:both;")
-  div(class = class, style="text-align: center;",
+  div(style="text-align: center;",
       hr(),
       htmltools::img(src = img_path, width="50%"),
       hr()
   )
+  p(style = "clear:both;")
 }

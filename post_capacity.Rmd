@@ -7,7 +7,8 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
+source("utils.R")
 ```
 
 <!-- **[Download Flashcards](flashcards/capacity.apkg)** for Anki -->
@@ -349,9 +350,10 @@ Ask the conservator to make all medical decisions for the patient.
 
 Conservatorships may be for specific indications.
 
-<p style="clear:both;"><hr></p>
-<img src="images/capacity.png" width=100% align=right></img>
-<p style="clear:both;"><hr></p>
+```{r}
+# place post image
+post_image(img_path = "images/capacity.png")
+```
 
 ## References
 
