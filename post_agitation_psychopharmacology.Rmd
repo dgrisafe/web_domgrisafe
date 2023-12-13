@@ -59,9 +59,9 @@ names(df_agitate_pretty) = c("Generic (Route)", "Brand", "Initial Dose (mg)", "M
 
 # print html table
 df_agitate_pretty %>% kbl(escape = F, align=c(rep('l', 2), rep('c', 4))) %>% kable_styling() %>% 
-  group_rows(start_row = 1, end_row = 4, "Oral (PO)", bold = F) %>% 
-  group_rows(start_row =5, end_row = 10, "Intramuscular (IM)", bold = F) %>% 
-  group_rows(start_row =11, end_row = 11, "Intravenous (IV)", bold = F) %>% 
+  group_rows(start_row = 1, end_row = 4, "Oral", bold = F) %>% 
+  group_rows(start_row =5, end_row = 10, "Intramuscular", bold = F) %>% 
+  group_rows(start_row =11, end_row = 11, "Intravenous", bold = F) %>% 
   footnote(symbol = c(
     "Likely to cause higher incidence of extrapyramidal side effects than other recommended drugs",
     "Administering haloperidol intravenously increases risk of QT prolongation. Avoid if possible, especially in patients w/ borderline QT or taking other medication that can prolong QT. If given IV, limit dose and provide cardiac monitoring."
