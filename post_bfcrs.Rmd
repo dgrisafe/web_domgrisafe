@@ -1,0 +1,23 @@
+---
+title: "Bush-Francis Catatonia Rating Scale"
+output:
+  html_document:
+    toc: FALSE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+source("utils.R")
+```
+
+```{r}
+# place post image
+post_image(img_path = "images/bfcrs_catatonia.png")
+```
+
+## References
+
+* Oldham, M. A. <a href="https://www.urmc.rochester.edu/MediaLibraries/URMCMedia/psychiatry/about/docs/BFCRS-with-Manual-links.pdf">Bush-Francis Catatonia Rating Scale</a>
+* Oldham, M. A. <a href="https://www.urmc.rochester.edu/MediaLibraries/URMCMedia/psychiatry/documents/BFCRS-Training-Manual-22-02-24.pdf">Bush-Francis Catatonia Rating Scale Training Manual and Coding Guide</a> (2022)
+* Wortzel, J. <a href="https://www.urmc.rochester.edu/psychiatry/divisions/collaborative-care-and-wellness/bush-francis-catatonia-rating-scale.aspx">Bush-Francis Catatonia Rating Scale Assessment Resources</a> University of Rochester Medical Center
+* Chase, R. H. <a href="https://www.flickr.com/photos/internetarchivebookimages/14596961729/">Mental Medicine and Nursing: For Use in Training-Schools for Nurses and in Medical Classes and a Ready Reference for the General Practitioner</a> (1915)
