@@ -61,4 +61,4 @@ source("utils.R")
 post_image(img_path = "images/danilo-alvesd-pill.png")
 ```
 
-### Resources
+### References

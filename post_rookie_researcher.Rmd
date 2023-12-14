@@ -40,3 +40,5 @@ Introductory skills for clinical research
 # place post image
 post_image(img_path = "images/dg_flavicon-dom-logo-550x550-NoBackground.png")
 ```
+
+## References
