@@ -20,7 +20,7 @@ post_image(img_path = "images/rod_long_unsplash.png")
 ## Summary
 
 | **Stage** | **Period** | **Years** | **Syntactic** | **Dystonic** | **Virtue** | **Maldevelopment** |
-| ----- | --------------- | ----------------- | ------------ | -------------------------- | ---------- | ---------- |
+| ----- |:--------------- |:----------------- |:------------ |:-------------------------- |:---------- |:---------- |
 | One   | Infancy         | 0–1.5    | Trust        | Mistrust                   | Hope       | Withdrawal          | 
 | Two   | Early Childhood | 2–3      | Autonomy     | Shame                      | Will       | Compulsion          | 
 | Three | Play Age        | 3–5      | Initiative   | Guilt                      | Purpose    | Inhibition          | 
