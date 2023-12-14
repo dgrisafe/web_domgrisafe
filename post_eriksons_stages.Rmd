@@ -19,16 +19,27 @@ post_image(img_path = "images/rod_long_unsplash.png")
 
 ## Summary
 
-| **Stage** | **Period** | **Years** | **Syntactic** | **Dystonic** | **Virtue** | **Maldevelopment** | **Example** |
-| ----- | --------------- | ----------------- | ------------ | -------------------------- | ---------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| One   | Infancy         | 0–1.5    | Trust        | Mistrust                   | Hope       | Withdrawal          | secure environment provided by the caregiver, with regular access to affection and food                                                        |
-| Two   | Early Childhood | 2–3      | Autonomy     | Shame                      | Will       | Compulsion          | caregiver promotes self-sufficiency while maintaining a secure environment                                                                     |
-| Three | Play Age        | 3–5      | Initiative   | Guilt                      | Purpose    | Inhibition          | caregiver encourages, supports, and guides the child's own initiatives and interests                                                           |
-| Four  | School Age      | 6–11     | Industry     | Inferiority                | Competence | Inertia (Passivity) | reasonable expectations set in school and at home, with praise for their accomplishments                                                       |
-| Five  | Adolescence     | 12–18    | Ego Identity | Confusion/Diffusion        | Fidelity   | Repudiation         | individual weighs out their previous experiences, societal expectations, and their aspirations in establishing values and "finding themselves" |
-| Six   | Young Adulthood | 19–40    | Intimacy     | Isolation                  | Love       | Distantiation       | individual forms close friendships or long-term partnership                                                                                    |
-| Seven | Adulthood       | 40–65    | Generativity | Stagnation/Self-Absorption | Care       | Rejectivity         | engagement with the next generation through parenting, coaching, or teaching                                                                   |
-| Eight | Old Age         | 65–death | Integrity    | Despair                    | Wisdom     | Disdain             | contemplation and acknowledgment of personal life accomplishments                                                                              |
+| **Stage** | **Period** | **Years** | **Syntactic** | **Dystonic** | **Virtue** | **Maldevelopment** |
+| ----- | --------------- | ----------------- | ------------ | -------------------------- | ---------- | ---------- |
+| One   | Infancy         | 0–1.5    | Trust        | Mistrust                   | Hope       | Withdrawal          | 
+| Two   | Early Childhood | 2–3      | Autonomy     | Shame                      | Will       | Compulsion          | 
+| Three | Play Age        | 3–5      | Initiative   | Guilt                      | Purpose    | Inhibition          | 
+| Four  | School Age      | 6–11     | Industry     | Inferiority                | Competence | Inertia (Passivity) | 
+| Five  | Adolescence     | 12–18    | Ego Identity | Confusion/Diffusion        | Fidelity   | Repudiation         | 
+| Six   | Young Adulthood | 19–40    | Intimacy     | Isolation                  | Love       | Distantiation       | 
+| Seven | Adulthood       | 40–65    | Generativity | Stagnation/Self-Absorption | Care       | Rejectivity         |
+| Eight | Old Age         | 65–death | Integrity    | Despair                    | Wisdom     | Disdain             | 
+
+## Examples
+
+1. secure environment provided by the caregiver, with regular access to affection and food
+2. caregiver promotes self-sufficiency while maintaining a secure environment
+3. caregiver encourages, supports, and guides the child's own initiatives and interests
+4. reasonable expectations set in school and at home, with praise for their accomplishments
+5. individual weighs out their previous experiences, societal expectations, and their aspirations in establishing values and "finding themselves"
+6. individual forms close friendships or long-term partnership
+7. engagement with the next generation through parenting, coaching, or teaching
+8. contemplation and acknowledgment of personal life accomplishments
 
 ## References
 
