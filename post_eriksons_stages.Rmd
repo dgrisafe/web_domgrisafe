@@ -10,6 +10,11 @@ knitr::opts_chunk$set(echo = FALSE)
 source("utils.R")
 ```
 
+```{r}
+# place post image
+post_image(img_path = "images/rod_long_unsplash.png")
+```
+
 **[Download Flashcards](flashcards/eriksons_stages.apkg)** for Anki
 
 ## Summary
@@ -24,11 +29,6 @@ source("utils.R")
 | Six   | Young Adulthood | 19–40    | Intimacy     | Isolation                  | Love       | Distantiation       | individual forms close friendships or long-term partnership                                                                                    |
 | Seven | Adulthood       | 40–65    | Generativity | Stagnation/Self-Absorption | Care       | Rejectivity         | engagement with the next generation through parenting, coaching, or teaching                                                                   |
 | Eight | Old Age         | 65–death | Integrity    | Despair                    | Wisdom     | Disdain             | contemplation and acknowledgment of personal life accomplishments                                                                              |
-
-```{r}
-# place post image
-post_image(img_path = "images/rod_long_unsplash.png")
-```
 
 ## References
 

@@ -7,6 +7,11 @@ knitr::opts_chunk$set(echo = FALSE)
 source("utils.R")
 ```
 
+```{r}
+# place post image
+post_image(img_path = "images/dg_flavicon-dom-logo-550x550-NoBackground.png")
+```
+
 Introductory skills for clinical research
 
 ## Learning Science
@@ -35,10 +40,3 @@ Introductory skills for clinical research
 #### Regular Expressions
 
 * [regex101](https://regex101.com/)
-
-```{r}
-# place post image
-post_image(img_path = "images/dg_flavicon-dom-logo-550x550-NoBackground.png")
-```
-
-## References

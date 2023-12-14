@@ -12,6 +12,11 @@ library(tidyverse)
 library(kableExtra)
 ```
 
+```{r}
+# place post image
+post_image(img_path = "images/agitation_psychopharmacology.png")
+```
+
 **[Download Flashcards](flashcards/agitation_psychopharmacology.apkg)** for Anki
 
 ```{r, echo = FALSE}
@@ -185,12 +190,6 @@ gg_agitate_plot +
 ```
 
 ## 
-
-
-```{r}
-# place post image
-post_image(img_path = "images/agitation_psychopharmacology.png")
-```
 
 ## References
 

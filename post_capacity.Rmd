@@ -11,6 +11,11 @@ knitr::opts_chunk$set(echo = FALSE)
 source("utils.R")
 ```
 
+```{r}
+# place post image
+post_image(img_path = "images/capacity.png")
+```
+
 <!-- **[Download Flashcards](flashcards/capacity.apkg)** for Anki -->
   
 ## Introduction
@@ -349,11 +354,6 @@ For 1 year they are considered incompetent to make their own decisions about tre
 Ask the conservator to make all medical decisions for the patient.
 
 Conservatorships may be for specific indications.
-
-```{r}
-# place post image
-post_image(img_path = "images/capacity.png")
-```
 
 ## References
 

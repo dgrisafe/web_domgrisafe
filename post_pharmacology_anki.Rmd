@@ -10,55 +10,47 @@ knitr::opts_chunk$set(echo = FALSE)
 source("utils.R")
 ```
 
-## Aim
-
-
-
-## Fields
-
-
-
-### Generic
-
-### Brand
-
-### Class
-
-### ATC Class
-
-### Indications
-
-### Mechanism
-
-### Chemistry
-
-### Structure Image
-
-### Half Life
-
-### Time to Onset
-
-### Dose Route Frequency
-
-### Adverse Events
-
-### Contraindications
-
-### Metabolism
-
-### Elimination
-
-### Interactions
-
-### Sleep
-
-### Pregnancy
-
-### Breast milk
-
 ```{r}
 # place post image
 post_image(img_path = "images/danilo-alvesd-pill.png")
 ```
 
-### References
+## Aim
+
+## Generic
+
+## Brand
+
+## Class
+
+## ATC Class
+
+## Indications
+
+## Mechanism
+
+## Chemistry
+
+## Structure Image
+
+## Half Life
+
+## Time to Onset
+
+## Dose Route Frequency
+
+## Adverse Events
+
+## Contraindications
+
+## Metabolism
+
+## Elimination
+
+## Interactions
+
+## Sleep
+
+## Pregnancy
+
+## Breastfeeding
