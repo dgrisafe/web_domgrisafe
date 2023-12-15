@@ -20,5 +20,6 @@ output:
     highlight: textmate
     css: styles.css
     includes:
+      in_header: header.html
       after_body: footer.txt
     
