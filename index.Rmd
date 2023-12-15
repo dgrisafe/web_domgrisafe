@@ -8,6 +8,7 @@ source("utils.R")
 <!-- rmarkdown::render_site() -->
 
 ```{r}
+thumbnail("Post: Bush-Francis Catatonia Rating Scale", "images/bfcrs_catatonia.png", "post_bfcrs.html")
 thumbnail("Post: Capacity", "images/capacity.png", "post_capacity.html")
 thumbnail("Talk: Mental Status Exam 10/2/2023", "images/mentalstatusexam.png", "https://bit.ly/mentalstatusexam")
 thumbnail("Flashcards: Agitation Psychopharmacology", "images/agitation_psychopharmacology.png", "post_agitation_psychopharmacology.html")
@@ -24,7 +25,6 @@ thumbnail("Post: Rookie Researcher", "images/dg_flavicon-dom-logo-550x550-NoBack
 # * [ ] Antipsychotics
 # * [ ] Clozapine
 # * [ ] Pharmacology Flashcards
-# * [ ] Capacity Criteria
 # * 
 # * 
 ```
