@@ -17,7 +17,7 @@ library(kableExtra)
 post_image(img_path = "images/agitation_psychopharmacology.png")
 ```
 
-**[Download Flashcards](flashcards/agitation_psychopharmacology.apkg)** for Anki
+**[Download Flashcards](flashcards/agitation_psychopharmacology_20231215.apkg)** for Anki
 
 ```{r, echo = FALSE}
 # create data table of agitation information
