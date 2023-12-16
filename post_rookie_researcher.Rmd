@@ -9,7 +9,7 @@ source("utils.R")
 
 ```{r}
 # place post image
-post_image(img_path = "images/dg_flavicon-dom-logo-550x550-NoBackground.png")
+post_image(img_path = "images/rookieresearcher.png")
 ```
 
 Introductory skills for clinical research
@@ -40,3 +40,7 @@ Introductory skills for clinical research
 #### Regular Expressions
 
 * [regex101](https://regex101.com/)
+
+## References
+
+* Sortino, J. <a href="https://unsplash.com/photos/worms-eye-view-photography-of-ceiling-LqKhnDzSF-8">Sometimes You Just Have to Look Up.</a> (2017)

@@ -15,7 +15,7 @@ thumbnail("Flashcards: Agitation Psychopharmacology", "images/agitation_psychoph
 thumbnail("Flashcards: Erikson’s Psychosocial Stages", "images/rod_long_unsplash.png", "post_eriksons_stages.html")
 thumbnail("Flashcards: Psychopharmacology", "images/hal-gatewood-neuron.png","")
 thumbnail("Flashcards: Pharmacology", "images/danilo-alvesd-pill.png", "post_pharmacology_anki.html")
-thumbnail("Post: Rookie Researcher", "images/dg_flavicon-dom-logo-550x550-NoBackground.png", "post_rookie_researcher.html")
+thumbnail("Post: Rookie Researcher", "images/rookieresearcher.png", "post_rookie_researcher.html")
 ```
 
 ```{r}
