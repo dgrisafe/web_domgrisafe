@@ -15,6 +15,8 @@ source("utils.R")
 post_image(img_path = "images/bfcrs_catatonia.png")
 ```
 
+[Spreadsheet](https://docs.google.com/spreadsheets/d/1KX5Xa-X_lzhe8LmV23KTJwCSYazz_GA9q8CThxMck7Q/edit) in progress
+
 ## References
 
 * Oldham, M. A. <a href="https://www.urmc.rochester.edu/MediaLibraries/URMCMedia/psychiatry/about/docs/BFCRS-with-Manual-links.pdf">Bush-Francis Catatonia Rating Scale</a>
