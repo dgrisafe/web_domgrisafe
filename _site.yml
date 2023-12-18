@@ -5,6 +5,9 @@ navbar:
     - text: "Posts"
       href: index.html
       icon: fa-pen
+    - text: "On Call"
+      href: call.html
+      icon: fa-phone    
     - text: "Library"
       href: https://www.zotero.org/groups/5304780/uic_psychiatry/library
       icon: fa-book
