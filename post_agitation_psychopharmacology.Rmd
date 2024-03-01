@@ -41,7 +41,7 @@ df_agitate_pretty <- df_agitate %>%
     # make time units as minutes
     across(starts_with("t_hr"), ~ .x*60),
     # limit digits to 2 decimals
-    across(where(is.numeric), round, 2),
+    across(where(is.numeric), \(x) round(x, 2)),
     # make single name of generic name and drug route
     generic = paste0(generic, " (", route, ")"),
     # if numbers have ranges, show them as ranges, otherwise just once
