@@ -3,6 +3,7 @@ title: "Bush-Francis Catatonia Rating Scale"
 output:
   html_document:
     toc: FALSE
+    css: _site/style.css
 ---
 
 ```{r setup, include=FALSE}
@@ -16,6 +17,34 @@ post_image(img_path = "images/bfcrs_catatonia.png")
 ```
 
 [Spreadsheet](https://docs.google.com/spreadsheets/d/1KX5Xa-X_lzhe8LmV23KTJwCSYazz_GA9q8CThxMck7Q/edit) in progress
+
+## HTML Table
+
+| BFCRS Item            | 0 | 1 | 2 | 3 |
+|-----------------------|---|---|---|---|
+| Excitement            |   |   |   |   |
+| Immobility/Stupor     |   |   |   |   |
+| Mutism                |   |   |   |   |
+| Staring               |   |   |   |   |
+| Posturing / Catalepsy |   |   |   |   |
+| Grimacing             |   |   |   |   |
+| Echopraxia/Echolalia  |   |   |   |   |
+| Stereotypy            |   |   |   |   |
+| Mannerisms            |   |   |   |   |
+| Verbigeration         |   |   |   |   |
+| Rigidity              |   |   |   |   |
+| Negativism            |   |   |   |   |
+| Waxy Flexibility      |   | - | - |   |
+| Withdrawal            |   |   |   |   |
+| Impulsivity           |   |   |   |   |
+| Automatic Obedience   |   |   |   |   |
+| Mitgehen              |   | - | - |   |
+| Gegenhalten           |   | - | - |   |
+| Ambitendency          |   | - | - |   |
+| Grasp Reflex          |   | - | - |   |
+| Perseveration         |   | - | - |   |
+| Combativeness         |   |   |   |   |
+| Autonomic Abnormality |   |   |   |   |
 
 ## References
 
