@@ -16,35 +16,119 @@ source("utils.R")
 post_image(img_path = "images/bfcrs_catatonia.png")
 ```
 
-[Spreadsheet](https://docs.google.com/spreadsheets/d/1KX5Xa-X_lzhe8LmV23KTJwCSYazz_GA9q8CThxMck7Q/edit) in progress
+**[Download Flashcards](flashcards/bfcrs_20240301.apkg)** for Anki, with three separate card types:
 
-## HTML Table
+* General information about the BFCRS as cloze deletions
+* BFCRS Items asking for item description, examples, and scoring 
+* Differences between items of the BFCRS to help clarify nuances between domains
 
-| BFCRS Item            | 0 | 1 | 2 | 3 |
-|-----------------------|---|---|---|---|
-| Excitement            |   |   |   |   |
-| Immobility/Stupor     |   |   |   |   |
-| Mutism                |   |   |   |   |
-| Staring               |   |   |   |   |
-| Posturing / Catalepsy |   |   |   |   |
-| Grimacing             |   |   |   |   |
-| Echopraxia/Echolalia  |   |   |   |   |
-| Stereotypy            |   |   |   |   |
-| Mannerisms            |   |   |   |   |
-| Verbigeration         |   |   |   |   |
-| Rigidity              |   |   |   |   |
-| Negativism            |   |   |   |   |
-| Waxy Flexibility      |   | - | - |   |
-| Withdrawal            |   |   |   |   |
-| Impulsivity           |   |   |   |   |
-| Automatic Obedience   |   |   |   |   |
-| Mitgehen              |   | - | - |   |
-| Gegenhalten           |   | - | - |   |
-| Ambitendency          |   | - | - |   |
-| Grasp Reflex          |   | - | - |   |
-| Perseveration         |   | - | - |   |
-| Combativeness         |   |   |   |   |
-| Autonomic Abnormality |   |   |   |   |
+## Scoring BFCRS Items {.tabset}
+
+Items are scored 0, 1, 2, or 3
+
+Except for several dichotomous items scored *either* 0 or 3  
+(Waxy Flexibility, Mitgehen, Gegenhalten, Ambitendency, Grasp Reflex, Perseveration)
+
+### Simple Text
+
+Useful for pasting into EMRs, especially those like CPRS with monospaced typewriter fonts (e.g., Courier, Menlo, Consolas)
+
+```
+Time and Date:
+
+|            BFCRS Items | 0 | 1 | 2 | 3 |
+|------------------------|---|---|---|---|
+|             Excitement |   |   |   |   |
+|    Immobility / Stupor |   |   |   |   |
+|                 Mutism |   |   |   |   |
+|                Staring |   |   |   |   |
+|  Posturing / Catalepsy |   |   |   |   |
+|              Grimacing |   |   |   |   |
+| Echopraxia / Echolalia |   |   |   |   |
+|             Stereotypy |   |   |   |   |
+|             Mannerisms |   |   |   |   |
+|          Verbigeration |   |   |   |   |
+|               Rigidity |   |   |   |   |
+|             Negativism |   |   |   |   |
+|       Waxy Flexibility |   | - | - |   |
+|             Withdrawal |   |   |   |   |
+|            Impulsivity |   |   |   |   |
+|    Automatic Obedience |   |   |   |   |
+|               Mitgehen |   | - | - |   |
+|            Gegenhalten |   | - | - |   |
+|           Ambitendency |   | - | - |   |
+|           Grasp Reflex |   | - | - |   |
+|          Perseveration |   | - | - |   |
+|          Combativeness |   |   |   |   |
+|  Autonomic Abnormality |   |   |   |   |
+
+```
+
+### HTML Table
+
+Formatted table, easily pasted into spreadsheets like Excel or Sheets
+
+Time and Date:
+
+| BFCRS Items            | 0 | 1 | 2 | 3 |
+|-----------------------:|:-:|:-:|:-:|:-:|
+|             Excitement |   |   |   |   |
+|    Immobility / Stupor |   |   |   |   |
+|                 Mutism |   |   |   |   |
+|                Staring |   |   |   |   |
+|  Posturing / Catalepsy |   |   |   |   |
+|              Grimacing |   |   |   |   |
+| Echopraxia / Echolalia |   |   |   |   |
+|             Stereotypy |   |   |   |   |
+|             Mannerisms |   |   |   |   |
+|          Verbigeration |   |   |   |   |
+|               Rigidity |   |   |   |   |
+|             Negativism |   |   |   |   |
+|       Waxy Flexibility |   | - | - |   |
+|             Withdrawal |   |   |   |   |
+|            Impulsivity |   |   |   |   |
+|    Automatic Obedience |   |   |   |   |
+|               Mitgehen |   | - | - |   |
+|            Gegenhalten |   | - | - |   |
+|           Ambitendency |   | - | - |   |
+|           Grasp Reflex |   | - | - |   |
+|          Perseveration |   | - | - |   |
+|          Combativeness |   |   |   |   |
+|  Autonomic Abnormality |   |   |   |   |
+
+## Descriptions of Scoring the BFCRS Items
+
+[This PDF Manual by the University of Rochester](https://www.urmc.rochester.edu/MediaLibraries/URMCMedia/psychiatry/about/docs/BFCRS-with-Manual-links.pdf) is useful to print and take into patient rooms while learning to score the BFCRS.
+
+In-depth descriptions and examples of each item are available in the [BFCRS Training Manual by the University of Rochester](https://www.urmc.rochester.edu/MediaLibraries/URMCMedia/psychiatry/documents/BFCRS-Training-Manual-22-02-24.pdf).
+
+The tabulated information for scoring the BFCRS below is an even more concise reference.
+
+| BFCRS Items            | 0      | 1                                                                                       | 2                                                     | 3                                                                |
+| ---------------------- | ------ | --------------------------------------------------------------------------------------- | ----------------------------------------------------- | ---------------------------------------------------------------- |
+| Excitement             | Absent | Excessive motion, intermittent                                                          | Constant motion, hyperkinetic without rest periods    | Full-blown catatonic excitement, endless frenzied motor activity |
+| Immobility / Stupor    | Absent | Sits abnormally still, may interact briefly                                             | Virtually no interaction with external world          | Stuporous (psychological), non-reactive to painful stimuli       |
+| Mutism                 | Absent | Verbally unresponsive to majority of questions; incomprehensible whisper                | Speaks < 20 words in 5 minutes                        | No speech                                                        |
+| Staring                | Absent | < 20 sec b/w shifting of attention, poor eye contact, repeated gaze, decreased blinking | \> 20 sec gaze held, occasionally shifts attention    | Fixed gaze, non-reactive                                         |
+| Posturing / Catalepsy  | Absent | < 1 minute                                                                              | \> 1 minute, < 15 minutes                             | Bizarre posture, or mundane maintained ≥ 15 min                  |
+| Grimacing              | Absent | < 10 sec                                                                                | < 1 min                                               | Bizarre expression(s) maintained > 1 min                         |
+| Echopraxia / Echolalia | Absent | Occasional                                                                              | Frequent                                              | Constant                                                         |
+| Stereotypy             | Absent | Occasional                                                                              | Frequent                                              | Constant                                                         |
+| Mannerisms             | Absent | Occasional                                                                              | Frequent                                              | Constant                                                         |
+| Verbigeration          | Absent | Occasional                                                                              | Frequent, difficult to interrupt                      | Constant                                                         |
+| Rigidity               | Absent | Mild resistance                                                                         | Moderate resistance                                   | Severe resistance, cannot be repostured                          |
+| Negativism             | Absent | Mild resistance, occasionally contrary                                                  | Moderate resistance, frequently contrary              | Severe resistance, continually contrary                          |
+| Waxy Flexibility       | Absent | –                                                                                       | –                                                     | Present                                                          |
+| Withdrawal             | Absent | Minimal PO intake/interaction < 1 day                                                   | Minimal PO intake/interaction > 1 day                 | No PO intake/interaction for ≥ 1 day                           |
+| Impulsivity            | Absent | Occasional                                                                              | Frequent                                              | Constant                                                         |
+| Automatic Obedience    | Absent | Occasional                                                                              | Frequent                                              | Constant                                                         |
+| Mitgehen               | Absent | –                                                                                       | –                                                     | Present                                                          |
+| Gegenhalten            | Absent | –                                                                                       | –                                                     | Present                                                          |
+| Ambitendency           | Absent | –                                                                                       | –                                                     | Present                                                          |
+| Grasp Reflex           | Absent | –                                                                                       | –                                                     | Present                                                          |
+| Perseveration          | Absent | –                                                                                       | –                                                     | Present                                                          |
+| Combativeness          | Absent | Occasionally strikes out, low potential for injury                                      | Frequently strikes out, moderate potential for injury | Serious danger to others                                         |
+| Autonomic Abnormality  | Absent | Abnormality of 1 parameter (exclude pre-existing hypertension)                          | Abnormality of 2 parameters                           | Abnormality of 3 or greater parameters                           |
 
 ## References
 

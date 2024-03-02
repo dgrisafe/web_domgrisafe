@@ -303,15 +303,259 @@ $(document).ready(function () {
 <img src="images/bfcrs_catatonia.png" width="50%"/>
 <hr/>
 </div>
-<p><a
-href="https://docs.google.com/spreadsheets/d/1KX5Xa-X_lzhe8LmV23KTJwCSYazz_GA9q8CThxMck7Q/edit">Spreadsheet</a>
-in progress</p>
-<div id="html-table" class="section level2">
-<h2>HTML Table</h2>
+<p><strong><a href="flashcards/bfcrs_20240301.apkg">Download
+Flashcards</a></strong> for Anki, with three separate card types:</p>
+<ul>
+<li>General information about the BFCRS as cloze deletions</li>
+<li>BFCRS Items asking for item description, examples, and scoring</li>
+<li>Differences between items of the BFCRS to help clarify nuances
+between domains</li>
+</ul>
+<div id="scoring-bfcrs-items" class="section level2 tabset">
+<h2 class="tabset">Scoring BFCRS Items</h2>
+<p>Items are scored 0, 1, 2, or 3</p>
+<p>Except for several dichotomous items scored <em>either</em> 0 or
+3<br />
+(Waxy Flexibility, Mitgehen, Gegenhalten, Ambitendency, Grasp Reflex,
+Perseveration)</p>
+<div id="simple-text" class="section level3">
+<h3>Simple Text</h3>
+<p>Useful for pasting into EMRs, especially those like CPRS with
+monospaced typewriter fonts (e.g., Courier, Menlo, Consolas)</p>
+<pre><code>Time and Date:
+
+|            BFCRS Items | 0 | 1 | 2 | 3 |
+|------------------------|---|---|---|---|
+|             Excitement |   |   |   |   |
+|    Immobility / Stupor |   |   |   |   |
+|                 Mutism |   |   |   |   |
+|                Staring |   |   |   |   |
+|  Posturing / Catalepsy |   |   |   |   |
+|              Grimacing |   |   |   |   |
+| Echopraxia / Echolalia |   |   |   |   |
+|             Stereotypy |   |   |   |   |
+|             Mannerisms |   |   |   |   |
+|          Verbigeration |   |   |   |   |
+|               Rigidity |   |   |   |   |
+|             Negativism |   |   |   |   |
+|       Waxy Flexibility |   | - | - |   |
+|             Withdrawal |   |   |   |   |
+|            Impulsivity |   |   |   |   |
+|    Automatic Obedience |   |   |   |   |
+|               Mitgehen |   | - | - |   |
+|            Gegenhalten |   | - | - |   |
+|           Ambitendency |   | - | - |   |
+|           Grasp Reflex |   | - | - |   |
+|          Perseveration |   | - | - |   |
+|          Combativeness |   |   |   |   |
+|  Autonomic Abnormality |   |   |   |   |
+</code></pre>
+</div>
+<div id="html-table" class="section level3">
+<h3>HTML Table</h3>
+<p>Formatted table, easily pasted into spreadsheets like Excel or
+Sheets</p>
+<p>Time and Date:</p>
 <table>
 <thead>
 <tr class="header">
-<th>BFCRS Item</th>
+<th align="right">BFCRS Items</th>
+<th align="center">0</th>
+<th align="center">1</th>
+<th align="center">2</th>
+<th align="center">3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">Excitement</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="right">Immobility / Stupor</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="right">Mutism</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="right">Staring</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="right">Posturing / Catalepsy</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="right">Grimacing</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="right">Echopraxia / Echolalia</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="right">Stereotypy</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="right">Mannerisms</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="right">Verbigeration</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="right">Rigidity</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="right">Negativism</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="right">Waxy Flexibility</td>
+<td align="center"></td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="right">Withdrawal</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="right">Impulsivity</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="right">Automatic Obedience</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="right">Mitgehen</td>
+<td align="center"></td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="right">Gegenhalten</td>
+<td align="center"></td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="right">Ambitendency</td>
+<td align="center"></td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="right">Grasp Reflex</td>
+<td align="center"></td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="right">Perseveration</td>
+<td align="center"></td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="right">Combativeness</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="right">Autonomic Abnormality</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="descriptions-of-scoring-the-bfcrs-items"
+class="section level2">
+<h2>Descriptions of Scoring the BFCRS Items</h2>
+<p><a
+href="https://www.urmc.rochester.edu/MediaLibraries/URMCMedia/psychiatry/about/docs/BFCRS-with-Manual-links.pdf">This
+PDF Manual by the University of Rochester</a> is useful to print and
+take into patient rooms while learning to score the BFCRS.</p>
+<p>In-depth descriptions and examples of each item are available in the
+<a
+href="https://www.urmc.rochester.edu/MediaLibraries/URMCMedia/psychiatry/documents/BFCRS-Training-Manual-22-02-24.pdf">BFCRS
+Training Manual by the University of Rochester</a>.</p>
+<p>The tabulated information for scoring the BFCRS below is an even more
+concise reference.</p>
+<table>
+<colgroup>
+<col width="9%" />
+<col width="2%" />
+<col width="37%" />
+<col width="22%" />
+<col width="27%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>BFCRS Items</th>
 <th>0</th>
 <th>1</th>
 <th>2</th>
@@ -321,164 +565,167 @@ in progress</p>
 <tbody>
 <tr class="odd">
 <td>Excitement</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Absent</td>
+<td>Excessive motion, intermittent</td>
+<td>Constant motion, hyperkinetic without rest periods</td>
+<td>Full-blown catatonic excitement, endless frenzied motor
+activity</td>
 </tr>
 <tr class="even">
-<td>Immobility/Stupor</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Immobility / Stupor</td>
+<td>Absent</td>
+<td>Sits abnormally still, may interact briefly</td>
+<td>Virtually no interaction with external world</td>
+<td>Stuporous (psychological), non-reactive to painful stimuli</td>
 </tr>
 <tr class="odd">
 <td>Mutism</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Absent</td>
+<td>Verbally unresponsive to majority of questions; incomprehensible
+whisper</td>
+<td>Speaks &lt; 20 words in 5 minutes</td>
+<td>No speech</td>
 </tr>
 <tr class="even">
 <td>Staring</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Absent</td>
+<td>&lt; 20 sec b/w shifting of attention, poor eye contact, repeated
+gaze, decreased blinking</td>
+<td>&gt; 20 sec gaze held, occasionally shifts attention</td>
+<td>Fixed gaze, non-reactive</td>
 </tr>
 <tr class="odd">
 <td>Posturing / Catalepsy</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Absent</td>
+<td>&lt; 1 minute</td>
+<td>&gt; 1 minute, &lt; 15 minutes</td>
+<td>Bizarre posture, or mundane maintained ≥ 15 min</td>
 </tr>
 <tr class="even">
 <td>Grimacing</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Absent</td>
+<td>&lt; 10 sec</td>
+<td>&lt; 1 min</td>
+<td>Bizarre expression(s) maintained &gt; 1 min</td>
 </tr>
 <tr class="odd">
-<td>Echopraxia/Echolalia</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Echopraxia / Echolalia</td>
+<td>Absent</td>
+<td>Occasional</td>
+<td>Frequent</td>
+<td>Constant</td>
 </tr>
 <tr class="even">
 <td>Stereotypy</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Absent</td>
+<td>Occasional</td>
+<td>Frequent</td>
+<td>Constant</td>
 </tr>
 <tr class="odd">
 <td>Mannerisms</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Absent</td>
+<td>Occasional</td>
+<td>Frequent</td>
+<td>Constant</td>
 </tr>
 <tr class="even">
 <td>Verbigeration</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Absent</td>
+<td>Occasional</td>
+<td>Frequent, difficult to interrupt</td>
+<td>Constant</td>
 </tr>
 <tr class="odd">
 <td>Rigidity</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Absent</td>
+<td>Mild resistance</td>
+<td>Moderate resistance</td>
+<td>Severe resistance, cannot be repostured</td>
 </tr>
 <tr class="even">
 <td>Negativism</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Absent</td>
+<td>Mild resistance, occasionally contrary</td>
+<td>Moderate resistance, frequently contrary</td>
+<td>Severe resistance, continually contrary</td>
 </tr>
 <tr class="odd">
 <td>Waxy Flexibility</td>
-<td></td>
-<td>-</td>
-<td>-</td>
-<td></td>
+<td>Absent</td>
+<td>–</td>
+<td>–</td>
+<td>Present</td>
 </tr>
 <tr class="even">
 <td>Withdrawal</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Absent</td>
+<td>Minimal PO intake/interaction &lt; 1 day</td>
+<td>Minimal PO intake/interaction &gt; 1 day</td>
+<td>No PO intake/interaction for ≥ 1 day</td>
 </tr>
 <tr class="odd">
 <td>Impulsivity</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Absent</td>
+<td>Occasional</td>
+<td>Frequent</td>
+<td>Constant</td>
 </tr>
 <tr class="even">
 <td>Automatic Obedience</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Absent</td>
+<td>Occasional</td>
+<td>Frequent</td>
+<td>Constant</td>
 </tr>
 <tr class="odd">
 <td>Mitgehen</td>
-<td></td>
-<td>-</td>
-<td>-</td>
-<td></td>
+<td>Absent</td>
+<td>–</td>
+<td>–</td>
+<td>Present</td>
 </tr>
 <tr class="even">
 <td>Gegenhalten</td>
-<td></td>
-<td>-</td>
-<td>-</td>
-<td></td>
+<td>Absent</td>
+<td>–</td>
+<td>–</td>
+<td>Present</td>
 </tr>
 <tr class="odd">
 <td>Ambitendency</td>
-<td></td>
-<td>-</td>
-<td>-</td>
-<td></td>
+<td>Absent</td>
+<td>–</td>
+<td>–</td>
+<td>Present</td>
 </tr>
 <tr class="even">
 <td>Grasp Reflex</td>
-<td></td>
-<td>-</td>
-<td>-</td>
-<td></td>
+<td>Absent</td>
+<td>–</td>
+<td>–</td>
+<td>Present</td>
 </tr>
 <tr class="odd">
 <td>Perseveration</td>
-<td></td>
-<td>-</td>
-<td>-</td>
-<td></td>
+<td>Absent</td>
+<td>–</td>
+<td>–</td>
+<td>Present</td>
 </tr>
 <tr class="even">
 <td>Combativeness</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Absent</td>
+<td>Occasionally strikes out, low potential for injury</td>
+<td>Frequently strikes out, moderate potential for injury</td>
+<td>Serious danger to others</td>
 </tr>
 <tr class="odd">
 <td>Autonomic Abnormality</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Absent</td>
+<td>Abnormality of 1 parameter (exclude pre-existing hypertension)</td>
+<td>Abnormality of 2 parameters</td>
+<td>Abnormality of 3 or greater parameters</td>
 </tr>
 </tbody>
 </table>
