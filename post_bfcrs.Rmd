@@ -59,7 +59,7 @@ Time and Date:
 |          Combativeness |   |   |   |   |
 |  Autonomic Abnormality |   |   |   |   |
 
-This html formatted table is easily pasted into spreadsheets like Excel or Sheets
+This html formatted table is easily pasted into spreadsheets like Excel or Sheets.
 
 Alternatively, this [Simple Text BFCRS](https://github.com/dgrisafe/cprs_templates/blob/ca347decc6fe6b8f632123497d804675e7dd16e8/psychiatry/exam_bfcrs.txt) is useful for pasting into EMRs, especially those like CPRS with monospaced typewriter fonts (e.g., Courier, Menlo, Consolas).
 
