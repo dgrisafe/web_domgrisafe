@@ -22,51 +22,14 @@ post_image(img_path = "images/bfcrs_catatonia.png")
 * BFCRS Items asking for item description, examples, and scoring 
 * Differences between items of the BFCRS to help clarify nuances between domains
 
-## Scoring BFCRS Items {.tabset}
+## Scoring BFCRS Items
 
 Items are scored 0, 1, 2, or 3
 
 Except for several dichotomous items scored *either* 0 or 3  
 (Waxy Flexibility, Mitgehen, Gegenhalten, Ambitendency, Grasp Reflex, Perseveration)
 
-### Simple Text
-
-Useful for pasting into EMRs, especially those like CPRS with monospaced typewriter fonts (e.g., Courier, Menlo, Consolas)
-
-```
-Time and Date:
-
-|            BFCRS Items | 0 | 1 | 2 | 3 |
-|------------------------|---|---|---|---|
-|             Excitement |   |   |   |   |
-|    Immobility / Stupor |   |   |   |   |
-|                 Mutism |   |   |   |   |
-|                Staring |   |   |   |   |
-|  Posturing / Catalepsy |   |   |   |   |
-|              Grimacing |   |   |   |   |
-| Echopraxia / Echolalia |   |   |   |   |
-|             Stereotypy |   |   |   |   |
-|             Mannerisms |   |   |   |   |
-|          Verbigeration |   |   |   |   |
-|               Rigidity |   |   |   |   |
-|             Negativism |   |   |   |   |
-|       Waxy Flexibility |   | - | - |   |
-|             Withdrawal |   |   |   |   |
-|            Impulsivity |   |   |   |   |
-|    Automatic Obedience |   |   |   |   |
-|               Mitgehen |   | - | - |   |
-|            Gegenhalten |   | - | - |   |
-|           Ambitendency |   | - | - |   |
-|           Grasp Reflex |   | - | - |   |
-|          Perseveration |   | - | - |   |
-|          Combativeness |   |   |   |   |
-|  Autonomic Abnormality |   |   |   |   |
-
-```
-
-### HTML Table
-
-Formatted table, easily pasted into spreadsheets like Excel or Sheets
+### HTML BFCRS Table
 
 Time and Date:
 
@@ -95,6 +58,10 @@ Time and Date:
 |          Perseveration |   | - | - |   |
 |          Combativeness |   |   |   |   |
 |  Autonomic Abnormality |   |   |   |   |
+
+This html formatted table is easily pasted into spreadsheets like Excel or Sheets
+
+Alternatively, this [Simple Text BFCRS](https://github.com/dgrisafe/cprs_templates/blob/ca347decc6fe6b8f632123497d804675e7dd16e8/psychiatry/exam_bfcrs.txt) is useful for pasting into EMRs, especially those like CPRS with monospaced typewriter fonts (e.g., Courier, Menlo, Consolas).
 
 ## Descriptions of Scoring the BFCRS Items
 
