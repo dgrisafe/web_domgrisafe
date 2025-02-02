@@ -8,6 +8,7 @@ source("utils.R")
 <!-- rmarkdown::render_site() -->
 
 ```{r}
+thumbnail("Talk: Case Conference 9/18/2024", "images/case_conference_20240918.png", "https://bit.ly/cc091824")
 thumbnail("Post: Bush-Francis Catatonia Rating Scale", "images/bfcrs_catatonia.png", "post_bfcrs.html")
 thumbnail("Post: Capacity", "images/capacity.png", "post_capacity.html")
 thumbnail("Talk: Neurobiology of Addiction 10/31/2023", "images/neurobiologyaddiction.png", "https://bit.ly/neurobioaddict")
