@@ -1,4 +1,4 @@
-### Grants
+## Grants
 
 * [Postdoctoral Fellowship in Environmental Omics](https://drive.google.com/file/d/10VWMRnFBfFJxueXct3npUaVkrcL0fiWs/view?usp=sharing)
   * Jun 2020 – May 2021

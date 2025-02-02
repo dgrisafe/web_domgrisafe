@@ -1,4 +1,4 @@
-### Publications
+## Publications
 
 1. **Grisafe DJ**, McKean-Cowdin R, Burkemper BS, et al. Visual Field Loss Impacts Vision-Specific Quality of Life by Race and Ethnicity: The Multiethnic Ophthalmology Cohorts of California Study. Ophthalmology. 2022;129(6):668-678. doi:10.1016/j.ophtha.2022.01.001
 2. **Grisafe DJ**, Varma R, Burkemper BS, et al. Impact of Visual Field Loss on Vision-Specific Quality of Life in African Americans: The African American Eye Disease Study. American Journal of Ophthalmology. 2021;229:52-62. doi:10.1016/j.ajo.2021.02.008
