@@ -9,17 +9,8 @@ source("utils.R")
  
 Dominic Grisafe, MD PhD
 
-## Clinical Training
-
-```{r include=FALSE, child="cv_child/_clinical_training.md"}
-```
-
-## Education
-
 ```{r include=FALSE, child="cv_child/_education.md"}
 ```
-
-## Research 
   
 ```{r include=FALSE, child="cv_child/_grants.md"}
 ```
@@ -31,4 +22,7 @@ Dominic Grisafe, MD PhD
 ```
 
 ```{r include=FALSE, child="cv_child/_posters.md"}
+```
+
+```{r include=FALSE, child="cv_child/_clinical_projects.md"}
 ```
