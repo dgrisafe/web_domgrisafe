@@ -1,8 +1,5 @@
 ## Education
 
-* 2027 Psychiatry Residency
-  * University of Illinois
-  * Chicago, Illinois
 * 2023 Medical Degree
   * University of Southern California
   * Los Angeles, California
