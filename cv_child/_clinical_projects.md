@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ## Clinical Projects
+=======
+### Clinical Projects
+>>>>>>> 2c000cfccef1ae2c6fb3adc8e0aa0522dfdd14c7
 
 1. **Grisafe DJ** [8E Protocols](https://bit.ly/8EProtocols). University of Illinois Hospital; December 1, 2023; Chicago, Illinois.
 2. **Grisafe DJ** [Medication Interactions](https://bit.ly/medixn). University of Illinois Hospital; January 2, 2024; Chicago, Illinois.
