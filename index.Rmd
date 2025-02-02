@@ -10,6 +10,7 @@ source("utils.R")
 ```{r}
 thumbnail("Post: Bush-Francis Catatonia Rating Scale", "images/bfcrs_catatonia.png", "post_bfcrs.html")
 thumbnail("Post: Capacity", "images/capacity.png", "post_capacity.html")
+thumbnail("Talk: Neurobiology of Addiction 10/31/2023", "images/neurobiologyaddiction.png", "https://bit.ly/neurobioaddict")
 thumbnail("Talk: Mental Status Exam 10/2/2023", "images/mentalstatusexam.png", "https://bit.ly/mentalstatusexam")
 thumbnail("Flashcards: Agitation Psychopharmacology", "images/agitation_psychopharmacology.png", "post_agitation_psychopharmacology.html")
 thumbnail("Flashcards: Erikson’s Psychosocial Stages", "images/rod_long_unsplash.png", "post_eriksons_stages.html")
