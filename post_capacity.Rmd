@@ -40,9 +40,9 @@ Throughout this discussion, it is helpful to recall the 4 pillars of medical eth
 4. Justice
 
 
-## Applebaum Criteria for Capacity
+## Appelbaum Criteria for Capacity
 
-*[Applebaum Criteria](https://doi.org/10.1056/NEJM198812223192504)* are formally assessed to determine capacity using the *[MacArthur Competence Assessment](https://doi.org/10.1176/ps.48.11.1415)*.
+*[Appelbaum Criteria](https://doi.org/10.1056/NEJM198812223192504)* are formally assessed to determine capacity using the *[MacArthur Competence Assessment](https://doi.org/10.1176/ps.48.11.1415)*.
 
 1. Communicate a *Clear and Consistent* Choice
 2. Understand Relevant Information
