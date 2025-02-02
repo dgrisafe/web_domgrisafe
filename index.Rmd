@@ -13,8 +13,8 @@ thumbnail("Post: Capacity", "images/capacity.png", "post_capacity.html")
 thumbnail("Talk: Mental Status Exam 10/2/2023", "images/mentalstatusexam.png", "https://bit.ly/mentalstatusexam")
 thumbnail("Flashcards: Agitation Psychopharmacology", "images/agitation_psychopharmacology.png", "post_agitation_psychopharmacology.html")
 thumbnail("Flashcards: Erikson’s Psychosocial Stages", "images/rod_long_unsplash.png", "post_eriksons_stages.html")
-thumbnail("Flashcards: Psychopharmacology", "images/hal-gatewood-neuron.png","")
-thumbnail("Flashcards: Pharmacology", "images/danilo-alvesd-pill.png", "post_pharmacology_anki.html")
+# thumbnail("Flashcards: Psychopharmacology", "images/hal-gatewood-neuron.png","")
+# thumbnail("Flashcards: Pharmacology", "images/danilo-alvesd-pill.png", "post_pharmacology_anki.html")
 thumbnail("Post: Rookie Researcher", "images/rookieresearcher.png", "post_rookie_researcher.html")
 ```
 
