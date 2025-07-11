@@ -11,9 +11,9 @@ navbar:
     - text: "On Call"
       href: call.html
       icon: fa-phone    
-    - text: "Library"
-      href: https://www.zotero.org/groups/5304780/uic_psychiatry/library
-      icon: fa-book
+    # - text: "Library"
+    #   href: https://www.zotero.org/groups/5304780/uic_psychiatry/library
+    #   icon: fa-book
     - text: "GitHub"
       href: https://github.com/dgrisafe
       icon: fa-github
