@@ -9,4 +9,4 @@ source("utils.R")
 
 Blank templates with preferred style
 
-* [Blank Slides Copy](https://bit.ly/blankslidescopy) will copy the blank slides to a personal Google Drive
+* [Blank Slides Copy](https://bit.ly/blankslidescopy) will copy the blank slides presentation file to a personal Google Drive
