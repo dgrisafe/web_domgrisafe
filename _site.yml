@@ -5,6 +5,9 @@ navbar:
     - text: "Posts"
       href: index.html
       icon: fa-pen
+    - text: "Templates"
+      href: template.html
+      icon: fa-copy
     - text: "On Call"
       href: call.html
       icon: fa-phone    

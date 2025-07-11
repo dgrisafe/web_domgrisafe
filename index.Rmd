@@ -21,14 +21,3 @@ thumbnail("Flashcards: Erikson’s Psychosocial Stages", "images/rod_long_unspla
 # thumbnail("Flashcards: Pharmacology", "images/danilo-alvesd-pill.png", "post_pharmacology_anki.html")
 thumbnail("Post: Rookie Researcher", "images/rookieresearcher.png", "post_rookie_researcher.html")
 ```
-
-```{r}
-# To-Do Posts
-# 
-# * [ ] Diagnoses by Time
-# * [ ] Antipsychotics
-# * [ ] Clozapine
-# * [ ] Pharmacology Flashcards
-# * 
-# * 
-```
