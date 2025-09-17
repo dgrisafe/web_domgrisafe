@@ -8,6 +8,7 @@ source("utils.R")
 <!-- rmarkdown::render_site() -->
 
 ```{r}
+thumbnail("Talk: SUD I: Alcohol, Cannabis", "images/sudac.png", "https://bit.ly/25ms3ac")
 thumbnail("Talk: SUD II: Opioids, Stimulants", "images/sudos_20250624.png", "https://bit.ly/25ms3os")
 thumbnail("Talk: Case Conference 6/11/2025", "images/case_conference_2025611.png", "https://bit.ly/cc061125")
 thumbnail("Talk: Case Conference 9/18/2024", "images/case_conference_20240918.png", "https://bit.ly/cc091824")
