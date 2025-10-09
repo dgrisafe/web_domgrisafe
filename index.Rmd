@@ -1,5 +1,9 @@
 <link rel="icon" type="image/png" href="image/dg_flavicon-dom-logo-550x550-NoBackground.png">
 
+---
+title: "Posts"
+---
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 source("utils.R")
