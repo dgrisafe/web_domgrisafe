@@ -1,5 +1,12 @@
 ### Laboratory Affiliations
 
+#### University of Illinois, Chicago
+
+* Research Examining What drives Addiction Risk and comorbid Depression
+  * June 2025 – June 2027
+  * Natania Crane PhD
+  * Department of Psychiatry
+
 #### University of Southern California, Los Angeles
 
 * Human Early Life Exposome and Child Liver Injury

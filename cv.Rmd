@@ -21,11 +21,17 @@ Dominic Grisafe, MD PhD
 ```{r include=FALSE, child="cv_child/_publications.md"}
 ```
 
-```{r include=FALSE, child="cv_child/_talks.md"}
-```
-
-```{r include=FALSE, child="cv_child/_posters.md"}
+```{r include=FALSE, child="cv_child/_clinical_teaching.md"}
 ```
 
 ```{r include=FALSE, child="cv_child/_clinical_projects.md"}
+```
+
+```{r include=FALSE, child="cv_child/_conference_talks.md"}
+```
+
+```{r include=FALSE, child="cv_child/_conference_posters.md"}
+```
+
+```{r include=FALSE, child="cv_child/_awards.md"}
 ```
