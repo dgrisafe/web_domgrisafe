@@ -2,41 +2,35 @@
 
 #### University of Illinois, Chicago
 
-* Research Examining What drives Addiction Risk and comorbid Depression
-  * June 2025 – June 2027
+* Research Examining What drives Addiction Risk and comorbid Depression, 2025 Jun – 2027 Jun
   * Natania Crane PhD
   * Department of Psychiatry
 
 #### University of Southern California, Los Angeles
 
-* Human Early Life Exposome and Child Liver Injury
-  * Jun 2020 – May 2021
+* Human Early Life Exposome and Child Liver Injury, 2020 Jun – 2021 May
   * Chatzi MD PhD
   * Department of Population and Public Health Sciences
-* Population-Based Cohort Studies of Eye Disease
-  * Aug 2017 – May 2021
+* Population-Based Cohort Studies of Eye Disease, 2017 Aug – 2021 May
   * McKean-Cowdin PhD
   * Department of Preventive Medicine, Roski Eye Institute
 
 #### California Polytechnic State University, San Luis Obispo
 
-* Microfluidic Paper-Based Devices
-  * Sep 2013 – Jun 2014
+* Microfluidic Paper-Based Devices, 2013 Sep – 2014 Jun
   * Martinez PhD
   * Department of Chemistry and Biochemistry
-* Marine Environmental Physiology
-  * Sep 2013 – Jun 2014
+* Marine Environmental Physiology, 2013 Sep – 2014 Jun
   * Hardy PhD
   * Department of Biological Sciences
-* Organic Chemistry Synthesis
-  * Sep 2013 – Dec 2013
+* Organic Chemistry Synthesis, 2013 Sep – 2013 Dec
   * Meisenheimer PhD
   * Department of Chemistry and Biochemistry
 
 #### University of California, San Diego
 
-* Cartilage Tissue Engineering, Human Motion Biomechanics
-  * Jun 2012 – Aug 2012
+* Cartilage Tissue Engineering, Human Motion Biomechanics, 2012 Jun – 2012 Aug
   * Sah MD ScD
   * Klisch PhD
   * Department of Bioengineering
+  
