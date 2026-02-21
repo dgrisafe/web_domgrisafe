@@ -24,7 +24,7 @@ Dominic Grisafe, MD PhD
 ```{r include=FALSE, child="cv_child/_clinical_teaching.md"}
 ```
 
-```{r include=FALSE, child="cv_child/_clinical_projects.md"}
+```{r include=FALSE, child="cv_child/_quality_improvement.md"}
 ```
 
 ```{r include=FALSE, child="cv_child/_conference_talks.md"}
@@ -33,12 +33,8 @@ Dominic Grisafe, MD PhD
 ```{r include=FALSE, child="cv_child/_conference_posters.md"}
 ```
 
-<!-- -->
 ```{r include=FALSE, child="cv_child/_lab_affiliations.md"}
 ```
-<!-- -->
 
-<!-- -->
 ```{r include=FALSE, child="cv_child/_awards.md"}
 ```
-<!-- -->
