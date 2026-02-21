@@ -27,10 +27,7 @@ Dominic Grisafe, MD PhD
 ```{r include=FALSE, child="cv_child/_quality_improvement.md"}
 ```
 
-```{r include=FALSE, child="cv_child/_conference_talks.md"}
-```
-
-```{r include=FALSE, child="cv_child/_conference_posters.md"}
+```{r include=FALSE, child="cv_child/_conference_presentations.md"}
 ```
 
 ```{r include=FALSE, child="cv_child/_lab_affiliations.md"}
