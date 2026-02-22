@@ -1,9 +1,9 @@
 ## Medical Education
 
 * [NNCI Ambassadors Fellowship Program](https://nncionline.org/nnci-ambassadors/), 2025 Jul – 2026 Jun
-* [Substance Use Disorders I: Alcohol and Cannabis](https://bit.ly/25ms3ac) UIC MS3 Students on Psychiatry Clerkship, [Evaluation Summary](https://drive.google.com/file/d/1jQKy9QlT4EoEuiZ95ds3fm34YQfjp6KH/view), 2025 Jul 22, 2025 Sep 16, 2025 Oct 28, 2025 Dec 9, 2026 Feb 3, 2026 Mar 24
-* [Substance Use Disorders II: Opioids and Stimulants](https://bit.ly/25ms3ac) UIC MS3 Students on Psychiatry Clerkship, [Evaluation Summary](https://drive.google.com/file/d/1jQKy9QlT4EoEuiZ95ds3fm34YQfjp6KH/view), 2025 Jun 24, 2025 Aug 5, 2025 Nov 18, 2026 Jan 1, 2026 Feb 17, 2026 Apr 7
-* [Intern Year the Board Game](https://nncionline.org/wp-content/uploads/2019/02/Instructions_Sequential.pdf) UIC MS4 Transitions to Residency, 2026 Feb 13, 2026 Feb 27
+* [Substance Use Disorders I: Alcohol and Cannabis](https://bit.ly/25ms3ac) UIC MS3 Students on Psychiatry Clerkship, [Evaluation Summary](https://drive.google.com/file/d/1jQKy9QlT4EoEuiZ95ds3fm34YQfjp6KH/view), 2025 Jul 22, Sep 16, Oct 28, Dec 9, 2026 Feb 3, Mar 24
+* [Substance Use Disorders II: Opioids and Stimulants](https://bit.ly/25ms3ac) UIC MS3 Students on Psychiatry Clerkship, [Evaluation Summary](https://drive.google.com/file/d/1jQKy9QlT4EoEuiZ95ds3fm34YQfjp6KH/view), 2025 Jun 24, Aug 5, Nov 18, Jan 1, Feb 17, Apr 7
+* [Intern Year the Board Game](https://nncionline.org/wp-content/uploads/2019/02/Instructions_Sequential.pdf) UIC MS4 Transitions to Residency, 2026 Feb 13, Feb 27
 * [Addiction Jeoparty](https://bit.ly/AddictionJeoparty) UIC MS3 Students on Psychiatry Clerkship, 2026 Feb 18
 * [Gambling Disorder](https://bit.ly/gamblingdo) UIC Mood and Anxiety Clinic, 2025 Oct 21
 * Anxiety, OCD, and Trauma and Stress-Related Disorders UIC MS2 Students on Brain and Behavior Block, 2025 Oct 14
