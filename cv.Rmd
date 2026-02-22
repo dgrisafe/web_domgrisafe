@@ -35,4 +35,4 @@ I am a psychiatry resident at the University of Illinois Chicago pursuing fellow
 ```{r include=FALSE, child="cv_child/_awards.md"}
 ```
 
-<div style="text-align: center;"><hr>[Download PDF](documents/CurriculumVitae20260222.pdf)</div>
+<div style="text-align: center;"><hr>[Download PDF](documents/Grisafe_CV_20260222.pdf)</div>
