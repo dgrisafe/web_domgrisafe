@@ -32,3 +32,5 @@ I am a psychiatry resident at the University of Illinois Chicago pursuing fellow
 
 ```{r include=FALSE, child="cv_child/_awards.md"}
 ```
+
+<div style="text-align: center;">[Download PDF](documents/CurriculumVitae20260222.pdf)</div>
