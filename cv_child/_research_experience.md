@@ -1,4 +1,4 @@
-## Laboratory Affiliations
+## Research Experience
 
 * Research Examining What drives Addiction Risk and comorbid Depression, Crane PhD, Department of Psychiatry, University of Illinois, Chicago, 2025 Jun – 2027 Jun
 * Human Early Life Exposome and Child Liver Injury, Chatzi MD PhD, Department of Population and Public Health Sciences, University of Southern California, Los Angeles, 2020 Jun – 2021 May
