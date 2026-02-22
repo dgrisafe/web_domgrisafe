@@ -1,12 +1,12 @@
 ---
 title: "Curriculum Vitae"
 ---
-
+<div id="kill-the-footer"></div>
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 source("utils.R")
 ```
- 
+
 Dominic Grisafe, MD PhD
 
 ```{r include=FALSE, child="cv_child/_clinical_training.md"}

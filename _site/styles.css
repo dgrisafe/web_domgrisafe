@@ -14,3 +14,8 @@
     padding:10px 5px;
     word-break:normal;
 }
+
+/* Add this to your styles.css */
+#kill-the-footer ~ #site-footer {
+    display: none !important;
+}

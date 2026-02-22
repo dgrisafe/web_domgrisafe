@@ -1,14 +1,15 @@
 ---
 title: "On Call"
 ---
-
+<div id="kill-the-footer"></div>
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 source("utils.R")
 ```
 
-* [History & Physical Psychiatry](https://www.bit.ly/hppsychiatry)
-* [Dr. Bob's DSM-5 Diagnoses and ICD-9-CM and ICD-10-CM Codes](http://www.dr-bob.org/tips/dsm5a.html)
+* [History & Physical Psychiatry](documents/HistoryPhysicalPsychiatry20251205.pdf)
+
+<!-- * [Google Drive](https://www.bit.ly/hppsychiatry) -->
 
 ## Illinois Documents
 
