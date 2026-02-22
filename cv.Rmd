@@ -1,5 +1,5 @@
 ---
-title: "Curriculum Vitae"
+title: "Dominic Grisafe, MD PhD"
 ---
 <div id="kill-the-footer"></div>
 ```{r setup, include=FALSE}
@@ -7,12 +7,9 @@ knitr::opts_chunk$set(echo = FALSE)
 source("utils.R")
 ```
 
-Dominic Grisafe, MD PhD
+I am a psychiatry resident at the University of Illinois Chicago pursuing fellowship training in addiction psychiatry. I apply my graduate and postdoctoral training in chronic disease epidemiology to studying the neurobiology of substance use disorders. My clinical interests include mood and anxiety disorders, dual diagnosis, acceptance and commitment therapy, and medical education.
 
-```{r include=FALSE, child="cv_child/_clinical_training.md"}
-```
-
-```{r include=FALSE, child="cv_child/_education.md"}
+```{r include=FALSE, child="cv_child/_education_training.md"}
 ```
 
 ```{r include=FALSE, child="cv_child/_research_experience.md"}
@@ -24,7 +21,7 @@ Dominic Grisafe, MD PhD
 ```{r include=FALSE, child="cv_child/_publications.md"}
 ```
 
-```{r include=FALSE, child="cv_child/_clinical_teaching.md"}
+```{r include=FALSE, child="cv_child/_medical_education.md"}
 ```
 
 ```{r include=FALSE, child="cv_child/_quality_improvement.md"}

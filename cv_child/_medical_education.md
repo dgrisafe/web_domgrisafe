@@ -1,4 +1,4 @@
-## Clinical Teaching
+## Medical Education
 
 * [NNCI Ambassadors Fellowship Program](https://nncionline.org/nnci-ambassadors/), 2025 Jul – 2026 Jun
 * [Substance Use Disorders I: Alcohol and Cannabis](https://bit.ly/25ms3ac) UIC MS3 Students on Psychiatry Clerkship, [Evaluation Summary](https://drive.google.com/file/d/1jQKy9QlT4EoEuiZ95ds3fm34YQfjp6KH/view), 2025 Jul 22, 2025 Sep 16, 2025 Oct 28, 2025 Dec 9, 2026 Feb 3, 2026 Mar 24
