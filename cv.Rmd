@@ -7,30 +7,48 @@ knitr::opts_chunk$set(echo = FALSE)
 source("utils.R")
 ```
 
+<hr>
+
 I am a psychiatry resident at the University of Illinois Chicago pursuing fellowship training in addiction psychiatry. I apply my graduate and postdoctoral training in chronic disease epidemiology to studying the neurobiology of substance use disorders. My clinical interests include mood and anxiety disorders, dual diagnosis, acceptance and commitment therapy, and medical education.
+
+<hr>
 
 ```{r include=FALSE, child="cv_child/_education_training.md"}
 ```
 
+<hr>
+
 ```{r include=FALSE, child="cv_child/_research_experience.md"}
 ```
+
+<hr>
 
 ```{r include=FALSE, child="cv_child/_grants.md"}
 ```
 
+<hr>
+
 ```{r include=FALSE, child="cv_child/_publications.md"}
 ```
+
+<hr>
 
 ```{r include=FALSE, child="cv_child/_medical_education.md"}
 ```
 
+<hr>
+
 ```{r include=FALSE, child="cv_child/_quality_improvement.md"}
 ```
+
+<hr>
 
 ```{r include=FALSE, child="cv_child/_conference_presentations.md"}
 ```
 
+<hr>
+
 ```{r include=FALSE, child="cv_child/_awards.md"}
 ```
 
-<div style="text-align: center;">[Download PDF](documents/CurriculumVitae20260222.pdf)</div>
+<div style="text-align: center;"><hr>[Download PDF](documents/CurriculumVitae20260222.pdf)</div>
