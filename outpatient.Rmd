@@ -1,0 +1,12 @@
+---
+title: "Outpatient"
+---
+<div id="kill-the-footer"></div>
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+source("utils.R")
+```
+
+## [FMLA: Forms](https://www.dol.gov/agencies/whd/fmla/forms)
+
+* [Employee’s serious health condition, form WH-380-E](https://www.dol.gov/sites/dolgov/files/WHD/legacy/files/WH-380-E.pdf)

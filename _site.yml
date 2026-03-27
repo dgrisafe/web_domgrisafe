@@ -5,12 +5,18 @@ navbar:
     - text: "Posts"
       href: index.html
       icon: fa-pen
-    - text: "Templates"
-      href: template.html
-      icon: fa-copy
-    - text: "On Call"
-      href: call.html
-      icon: fa-phone    
+    - text: "Forms"
+      icon: fa-list
+      menu:
+        - text: "Templates"
+          href: template.html
+          icon: fa-copy
+        - text: "On Call"
+          href: call.html
+          icon: fa-phone  
+        - text: "Outpatient"
+          href: outpatient.html
+          icon: fa-comments 
     - text: "GitHub"
       href: https://github.com/dgrisafe
       icon: fa-github
