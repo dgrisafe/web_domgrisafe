@@ -10,6 +10,7 @@ knitr::opts_chunk$set(echo = FALSE)
 source("utils.R")
 library(tidyverse)
 library(kableExtra)
+library(cowplot)
 ```
 
 ```{r}
