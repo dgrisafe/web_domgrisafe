@@ -7,7 +7,7 @@ knitr::opts_chunk$set(echo = FALSE)
 source("utils.R")
 ```
 
-* [History & Physical Psychiatry](documents/HistoryPhysicalPsychiatry20260315.pdf)
+* [History & Physical Psychiatry](documents/hppsychiatry20260622.pdf)
 
 <!-- * [Google Drive](https://www.bit.ly/hppsychiatry) -->
 
