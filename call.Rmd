@@ -11,6 +11,10 @@ source("utils.R")
 
 <!-- * [Google Drive](https://www.bit.ly/hppsychiatry) -->
 
+* [Inpatient Follow-Up](documents/inptfu20260622.pdf)
+
+<!-- * [Google Drive](https://www.bit.ly/inptfu) -->
+
 ## Illinois Documents
 
 * [Application for Voluntary Admission](https://www.dhs.state.il.us/onenetlibrary/12/documents/Forms/IL462-2202M.pdf)
